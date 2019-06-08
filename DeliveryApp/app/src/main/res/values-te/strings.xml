@@ -1,0 +1,293 @@
+<resources>
+    <string name="app_name">Lastmile</string>
+    <string name="share_via">ద్వారా షేర్ చేయండి</string>
+    <string name="read_less">కొంచెం చదవండి</string>
+    <string name="read_more">....మరింత చదవండి</string>
+    <string name="simple_date_format">సంవత్సరం-నెల-తేదీ గంటలు:నిముషాలు:సెకన్లు</string>
+    <string name="seconds_ago">సెకనుల క్రితం</string>
+    <string name="minutes_ago">నిముషాల క్రితం</string>
+    <string name="hours_ago">గంటల క్రితం</string>
+    <string name="days_ago">రోజుల క్రితం</string>
+    <!-- Error messages-->
+    <string name="check_internet">ఇంటర్నెట్‌‌కి కనెక్ట్ చేయడం సాధ్యం కాలేదు. దయచేసి మీ ఇంటర్నెట్‌‌ని తనిఖీ చేసి మళ్ళీ ప్రయత్నించండి</string>
+    <string name="error_passing_data">డేటాను తరలించడంలో లోపం.</string>
+
+
+
+   
+    <string name="action_settings">సెట్టింగ్‌లు</string>
+    <!-- Login Page -->
+    <string name="txt_user_name">వినియోగదారు పేరు</string>
+    <string name="txt_password">పాస్‌‌వర్డ్</string>
+    <string name="hint_user_name">వినియోగదారు పేరు</string>
+    <string name="hint_password">పాస్‌‌వర్డ్</string>
+    <string name="btn_login">లాగిన్</string>
+    <string name="btn_bar_code">స్కానర్</string>
+    <string name="rem_me">నన్ను గుర్తించుకోండి</string>
+    <!-- End Login Page -->
+    <!--  Main Page -->
+    <string name="start">ప్రారంభించండి</string>
+    <string name="blukstart">పెద్ద సంఖ్యలో ప్రారంభించండి</string>
+    <string name="sync">చివరి సమకాలీకరణ</string>
+    <string name="summery">సారాంశం</string>
+    <string name="profile">ప్రొఫైల్</string>
+    <string name="backup">బ్యాకప్</string>
+    <string name="logout">లాగౌట్</string>
+    <string name="switch_user">వినియోగదారుని మార్చండి</string>
+
+    <string name="start_alert">డెలివరీ కోసం షిప్‌మెంట్ అందుబాటులో లేదు</string>
+    <string name="nointernet">ఇంటర్నెట్ కనెక్షన్ లేదు, దయచేసి ఇంటర్నెట్ కనెక్ట్ చేయండి ...</string>
+    <string name="noordersum">డెలివరీ కోసం ఆర్డర్ సారాంశం లేదు</string>
+    <string name="under">నిర్మాణ దశలో ఉంది</string>
+    <!-- end main page -->
+    <!-- alert box-->
+    <string name="select_retailer">రీటైలర్‌ను ఎంచుకోండి</string>
+    <string name="retailer_name">రీటైలర్ పేరుని నమోదు చేయండి</string>
+    <string name="yes">అవును</string>
+    <string name="no">కాదు</string>
+    <string name="showlogout">మీరు ఖచ్చితంగా లాగౌట్ చేయాలనుకుంటున్నారా?</string>
+    <string name="showSwitch">మీరు ఖచ్చితంగా వినియోగదారుని మార్చాలి అనుకుంటున్నారా?</string>
+    <string name="showexit">మీరు ఖచ్చితంగా నిష్క్రమించాలనుకుంటున్నారా?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">హలో బ్లాంక్ ఫ్రాగ్మెంట్</string>
+    <!-- end alert box -->
+    <!--  delivery Page -->
+    <string name="name">పేరు</string>
+    <string name="amountcolled">నగదు సేకరించబడింది</string>
+    <string name="phnumber">ఫోన్ నంబర్</string>
+    <string name="pincode">పిన్‌కోడ్</string>
+    <string name="custdevelivery">వినియోగదారు డెలివరీ</string>
+    <string name="delivery_proof">డెలివరీ రుజువు</string>
+    <string name="invoice">ఇన్వాయిస్</string>
+    <string name="invoice_proof">ఇన్వాయిస్ రుజువు</string>
+    <string name="addressprof">చిరునామా రుజువు</string>
+    <string name="sign">సంతకం</string>
+    <string name="maxqty">ఈ షిప్‌మెంట్‌లో ఒకే ఒక పరిమాణం మాత్రమే ఉంది! పాక్షిక డెలివరీ అనుమతించబడలేదు!.</string>
+    <!-- end delivery page -->
+    <!-- un delivery Page -->
+    <string name="reason">కారణం</string>
+    <string name="image">చిత్రం</string>
+    <string name="undelivered_proof">డెలివరీ చేయబడని రుజువు</string>
+    <string name="remark">వ్యాఖ్యలు</string>
+    <string name="delivery_summary">డెలివరీ సారాంశం</string>
+    <string name="txt_pending">పెండింగ్</string>
+    <string name="successful">విజయవంతమైంది</string>
+    <string name="failed">విఫలమైంది</string>
+    <string name="success">విజయం</string>
+    <string name="dash_order">మొత్తం ఆర్డర్‌లు</string>
+    <string name="complete">పూర్తయింది</string>
+    <!-- end un delivery page -->
+    <!--  Menu Activity -->
+    <string name="pending">పెండింగ్</string>
+    <string name="sucess">విజయం</string>
+    <string name="faild">విఫలమైంది</string>
+    <!-- End Menu Activity-->
+    <!--  Fragement adapter menu Activity -->
+    <string name="orderno">ఆర్డర్ నం</string>
+    <string name="shipmentno">షిప్‌మెంట్ నం</string>
+    <string name="cusname">వినియోగదారు పేరు</string>
+    <string name="search_edit">శోధన</string>
+    <!-- End Fragement adapter menu Activity-->
+    <!-- Profile Activity--><string name="repass">పాస్‌వర్డ్ రీసెట్ చేయండి</string>
+    <string name="txt_name">పేరు</string>
+    <string name="txt_contact">సంప్రదింపు నంబర్</string>
+    <string name="txt_email">ఈమెయిల్</string>
+    <string name="fill_field">దయచేసి ఖాళీలను పూరించండి*</string>
+    <string name="submit">సమర్పించండి</string>
+    <string name="back">వెనుకకు</string>
+    <string name="prompt">ఒక కారణాన్ని ఎంచుకోండి</string>
+    <!--End  Profile Activity-->
+    <!-- Reset password -->
+    <string name="curpassword">ప్రస్తుత పాస్‌వర్డ్</string>
+    <string name="newpass">కొత్త పాస్‌వర్డ్</string>
+    <string name="confpass">పాస్‌వర్డ్‌‌‌‌ని నిర్ధారించండి</string>
+    <!-- Order Deteils Page -->
+    <string name="ord_title">పెండింగ్</string>
+    <string name="ord_number">ఆర్డర్ నంబర్</string>
+    <string name="ord_cus_number">వినియోగదారు నంబర్</string>
+    <string name="ord_cus_name">వినియోగదారు పేరు</string>
+
+    <string name="ord_del_date">డెలివరీ చేయాలి</string>
+    <string name="ord_ship_add">షిప్పింగ్ చిరునామా</string>
+    <string name="ord_add">చిరునామా</string>
+    <string name="ord_ship_city">షిప్పింగ్ నగరం</string>
+    <string name="ord_city">నగరం</string>
+    <string name="ord_ship_pincode">షిప్పింగ్ పిన్‌కోడ్</string>
+    <string name="ord_ship_invoice">ఇన్వాయిస్ నంబర్</string>
+    <string name="ord_ship_number">షిప్‌మెంట్ నంబర్</string>
+    <string name="ord_ship_invoic_amt">నగదు</string>
+    <string name="ord_ship_amt_coll">నగదు సేకరించబడింది</string>
+    <string name="ord_ship_paymode">చెల్లింపు విధానం</string>
+    <string name="ord_ship_itemcode">ఉత్పత్తి కోడ్</string>
+    <string name="ord_ship_branchname">క్లయింట్ బ్రాంచ్ పేరు</string>
+    <string name="ord_ship_branchadd">బ్రాంచ్ చిరునామా</string>
+    <string name="ord_ship_branch_pin">బ్రాంచ్ పిన్‌కోడ్</string>
+    <string name="ord_ship_att_count">ప్రయత్నాల సంఖ్య</string>
+
+    <string name="ord_delivery">డెలివరీ</string>
+    <string name="ord_par_delivery">పాక్షిక డెలివరీ</string>
+    <string name="ord_un_delivery">డెలివరీ చేయబడనివి</string>
+    <!--Deliver details strings-->
+    <string name="pername">పేరుని నమోదు చేయండి</string>
+    <string name="amount">నగదు</string>
+    <string name="valid_amount">నగదుని నమోదు చేయండి</string>
+    <string name="valid_phone_number">చెల్లుబాటు అయ్యే ఫోన్ నంబర్‌‌ని నమోదు చేయండి</string>
+    <string name="error_phone">ఫోన్ నంబర్‌‌ని నమోదు చేయండి</string>
+    <string name="error_ship_address">షిప్‌మెంట్ చిరునామాని నమోదు చేయండి</string>
+    <string name="error_pincode">పిన్‌కోడ్ నమోదు చేయండి</string>
+    <string name="valid_pincode">చెల్లుబాటు అయ్యే పిన్‌కోడ్ నమోదు చేయండి</string>
+    <string name="getwarning">మీరు ఖచ్చితంగా వివరాలను పొందాలనుకుంటున్నారా?</string>
+    <string name="back_pressed">మీరు ఖచ్చితంగా వెనుకకు  వెళ్ళాలనుకుంటున్నారా?</string>
+    <!--Signature activity-->
+    <string name="sign_here_title">ఇక్కడ సంతకం చేయండి</string>
+    <string name="hint_cancel">రద్దు చేయండి</string>
+    <string name="hint_clear">క్లియర్ చేయండి</string>
+    <string name="hint_save">సేవ్ చేయండి</string>
+    <string name="unDelReason">వ్యాఖ్యలను నమోదు చేయండి</string>
+
+    <string name="country_prompt">దేశాన్ని ఎంచుకోండి</string>
+    <string name="landmark">ల్యాండ్‌మార్క్</string>
+    <string name="address">చిరునామా</string>
+    <string name="Redirect">మళ్ళించండి</string>
+    <string name="valid_add">చిరునామాని నమోదు చేయండి</string>
+
+
+    <string name="ok">సరే</string>
+    <string name="add_location_text">అప్లై చేయండి</string>
+    <string name="direction">దిశ</string>
+    <string name="get_location">లొకేషన్ పొందుతోంది</string>
+    <string name="gps_signal">శాటిలైట్ సిగ్నల్ బలహీనంగా ఉంది కాబట్టి, ప్రస్తుత లొకేషన్‌ని పొందడం లేదు</string>
+    <string name="valid_user_name">వినియోగదారు పేరు నమోదు చేయండి</string>
+    <string name="valid_pass">పాస్‌‌వర్డ్ నమోదు చేయండి</string>
+    <string name="wrong_user">\&quot;సరికాని వినియోగదారు !! ఆన్‌‌లైన్‌‌లో తనిఖీ చెయ్యాలా?</string>
+    <string name="invalid_login">తప్పుడు లాగిన్ సమాచారం</string>
+    <!--    <string-array name="country_arrays">
+            <item>మలేషియా</item>
+	<item>సంయుక్త రాష్ట్రాలు</item>
+	<item>ఇండోనేషియా</item>
+
+        </string-array>-->
+        <!-- Product Show -->
+        <string name="product_code">ఉత్పత్తి కోడ్</string>
+    <string name="product_name">ఉత్పత్తి పేరు</string>
+    <string name="product_qty">పరిమాణం</string>
+    <string name="product_amt">నగదు</string>
+    <!-- partial delivery-->
+    <string name="prat_title">పాక్షిక డెలివరీ</string>
+    <string name="par_ent_qty">డెలివరీ పరిమాణం:</string>
+    <string name="par_amt_colleted">సేకరించబడిన నగదు:</string>
+    <string name="par_total">మొత్తం</string>
+    <string name="entervalid">దయచేసి చెల్లుబాటు అయ్యే పరిమాణాన్ని నమోదు చేయండి</string>
+    <string name="adhaar">ఆధార్</string>
+    <string name="undeliver_res">డెలివరీ చేయబడనిది విజయవంతం</string>
+    <string name="upload_failed">ఇప్పటికే డెలివరీ విజయవంతంగా అప్లోడ్ చేయబడింది. కాబట్టి అప్లోడ్ విఫలమైంది.</string>
+    <string name="delivery_offline">షిప్‌మెంట్ ఆఫ్‌‌‌లైన్‌‌‌లో స్టోర్ చేయబడింది</string>
+    <string name="delivery_qty">డెలివరీ పరిమాణం</string>
+
+    <string-array name="reason_spinner">
+        <item>ఒక కారణాన్ని ఎంచుకోండి</item>
+    </string-array>
+
+    <string name="update_app"><u> అప్‌డేట్ అందుబాటులో ఉంది</u></string>
+    <!--Tracking the vehicle system via gps-->
+    <string name="title_activity_main">రవాణా ట్రాకర్</string>
+    <string name="start_tracking">ట్రాకింగ్ ప్రారంభించండి</string>
+    <string name="stop_tracking">ట్రాకింగ్ ఆపండి</string>
+    <string name="enter_transport_id">రవాణా ఐ.డి నమోదు చేయండి</string>
+    <string name="enter_email">ఈమెయిల్ నమోదు చేయండి</string>
+    <string name="enter_password">పాస్‌‌వర్డ్ నమోదు చేయండి</string>
+    <string name="location_permissions_required">లొకేషన్ ట్రాకింగ్ కోసం లొకేషన్ అనుమతులు అవసరం. దయచేసి కొనసాగడానికి ఈ అనుమతులను మంజూరు చేయండి.</string>
+    <string name="missing_inputs">దయచేసి రవాణా ఐ.డి, ఈమెయిల్ మరియు పాస్‌‌వర్డ్‌‌ని నమోదు చేయండి</string>
+    <string name="tracking">ట్రాకింగ్ ✓</string>
+    <string name="not_tracking">ట్రాకింగ్ చేయడం లేదు ✘</string>
+    <string name="connecting">కనెక్ట్ అవుతోంది ...</string>
+    <string name="status">స్థితి</string>
+    <string name="location_permission_required">లొకేషన్ అనుమతి అవసరం.</string>
+    <string name="gps_required">జి.పి.ఎస్ ప్రారంభించబడలేదు.</string>
+    <string name="enable">ప్రారంభించండి</string>
+    <string name="auth_failed">ఫైర్‌‌‌బేస్ ప్రమాణీకరణ విఫలమైంది</string>
+    <string name="confirm_stop">మీరు ఖచ్చితంగా ట్రాకింగ్‌‌ను నిలిపివేయాలనుకుంటున్నారా?</string>
+
+    <string name="firebase_path" translatable="false">raw-locations/</string>
+    <string name="prefs" translatable="false">prefs</string>
+    <string name="transport_id" translatable="false">transport_id</string>
+    <string name="email" translatable="false">email</string>
+    <string name="password" translatable="false">password</string>
+    <!--Check whether device date has been changed or not-->
+    <string name="tt_time_gmt">నిజసమయం: %1$s [జి.ఎమ్.టి]</string>
+    <string name="tt_time_pst">నిజసమయం: %1$s [పి.ఎస్.టి]</string>
+    <string name="tt_time_device">డివైస్ సమయం: %1$s [పి.ఎస్.టి]</string>
+    <string name="exactdate">హెచ్చరిక తేదీ</string>
+    <string name="get_date_warn">మీ మొబైల్ తేదీ సమయం ఖచ్చితమైనది కాదు, దయచేసి మీ గడియారాన్ని సరిచేసి, మళ్లీ ప్రయత్నించండి</string>
+    <string name="accept">ఆమోదించండి</string>
+    <string name="backupalert">క్షమించండి ఇప్పుడు బ్యాకప్ తీసుకోవడానికి మీకు యాక్సెస్ లేదు, దయచేసి నిర్వాహకుడిని సంప్రదించండి</string>
+    <string name="back_internet">దయచేసి మీ ఇంటర్నెట్ కనెక్షన్ స్విచ్ ఆన్ చేయండి</string>
+    <string name="feed_back">అభిప్రాయం</string>
+    <string name="opt">ఓ.టి.పి</string>
+    <string name="urn">యు.ఆర్.ఎన్</string>
+    <string name="error_otp">ఓ.టి.పి నమోదు చేయండి</string>
+    <!--<string name="error_urn">ఓ.టి.పి నమోదు చేయండి</string>-->
+    <string name="error_urn">Enter the URN</string>
+    <!--Splash activity-->
+    <string name="force_update">అప్‌డేట్ అందుబాటులో ఉంది</string>
+    <string name="force_update_name">లాస్ట్‌‌‌మైల్ యాప్ యొక్క కొత్త వెర్షన్ డౌన్‌‌లోడ్ చేసుకోవడానికి అందుబాటులో ఉంది</string>
+    <string name="force_update_confirm">అప్‌డేట్ చేయండి</string>
+    <string name="force_update_ok">వద్దు, ధన్యవాదాలు</string>
+    <string name="back_up">బ్యాకప్ పూర్తయింది</string>
+    <string name="backup_suc">బ్యాకప్ విజయవంతమైంది</string>
+    <string name="zipfile">జిప్ ఫైల్ విఫలమైంది</string>
+    <string name="backup_server">బ్యాకప్ సేవ్ చేయబడింది కానీ సర్వర్‌‌కు పంపబడలేదు</string>
+    <string name="back_up_title">బ్యాకప్</string>
+    <string name="cash_colle">నగదు సేకరించిన చెక్‌‌బాక్స్ తనిఖీ చేయబడలేదు</string>
+    <string name="device_not_supp">ఈ డివైస్ సపోర్ట్ చేయబడదు.</string>
+    <string name="permission">లొకేషన్ అనుమతులు అవసరం ఎందుకంటే, ప్రస్తుత లొకేషన్ కొరకు మేము ప్రస్తుత అక్షాంశం మరియు రేఖాంశాన్ని పొందాలి</string>
+    <string name="warning">హెచ్చరిక!</string>
+    <string name="camera_permission">కెమెరా మరియు స్టోరేజీ అనుమతులు అవసరం ఎందుకంటే మేము రుజువు తీసుకోవలసిన అవసరం ఉంది</string>
+    <string name="info">సమాచారం</string>
+    <string name="sure">ఖచ్చితంగానా</string>
+    <string name="undeliver_Reason">దయచేసి చెల్లుబాటు అయ్యే కారణాన్ని ఎంచుకోండి</string>
+    <string name="location_permission">లొకేషన్ అనుమతి</string>
+    <string name="location_per_deni">లొకేషన్ అనుమతి తిరస్కరించబడినది:</string>
+    <string name="Location_warning">లొకేషన్ సర్వీస్ హెచ్చరిక</string>
+    <string name="Location_enabled">ప్రస్తుతానికి లొకేషన్‌‌ని పొందడం సాధ్యం కాలేదు, డివైస్‌‌లో లొకేషన్ ప్రారంభించబడిందని నిర్ధారించుకోండి</string>
+    <string name="undeli_title">డెలివరీ చేయబడనివి</string>
+    <string name="undeli_success_msg">డెలివరీ చేయబడనివి విజయవంతంగా అప్లోడ్ చేయబడింది</string>
+    <string name="undeli_notsuccess_msg">డెలివరీ చేయబడనివి విజయవంతంగా అప్లోడ్ చేయలేదు</string>
+    <string name="Location_warning_error">ప్రస్తుతానికి లొకేషన్‌ని పొందడం సాధ్యం కాలేదు, దయచేసి తరువాత మళ్లీ ప్రయత్నించండి</string>
+    <string name="Location_not_up">లొకేషన్ అప్‌‌డేట్ చేయబడలేదు</string>
+    <string name="enter_qty">దయచేసి పరిమాణాన్ని నమోదు చేయండి</string>
+    <string name="enter_qty_error">మీరు ఉత్పత్తుల యొక్క పరిమాణాన్ని మార్చలేదు, కనుక దయచేసి తరువాత డెలివరీతో కొనసాగించండి</string>
+    <string name="enter_qtyno_error">మీరు పరిమాణం సంఖ్య 0 నమోదు చేసారు, అందువల్ల దయచేసి మీరు దీనిని డెలివరీ చేయబడనివిగా ప్రాసెస్ చేయండి</string>
+    <!--Main Activity-->
+    <string name="change_language">Change Language</string>
+    <string name="unit_price">  యూనిట్ ప్రైస్ : </string>
+    <string name="partial_quantity">క్వాంటిట :</string>
+    <string name="partial_del_qty">డెలివరి క్వాంటిట :</string>
+    <string name="partial_total_amt">టోటల్ అమౌంట్  :</string>
+    <string name="view_details"> వ్యూ డీటైల్ </string>
+    <string name="hide_details"> హైడ్ డీటైల్స్</string>
+    <string name="ord_product_code">ఉత్పత్తి కోడ్  : </string>
+    <string name="delivery_success_msg"> షిప్మెంట్ డెలివర్డ్ సక్సెస్   </string>
+    <string name="select_phone_no"> Select a Phone Number </string>
+    <string name="select_location"> Select Location </string>
+    <string name="main_logout_alert_sync"> Cannot Logout Offline Orders Not Synced </string>
+    <string name="dl_back_pressed"> Back Pressed </string>
+    <string name="main_choose_lang"> Choose Language </string>
+
+    <string name="pickup_complete">PickupComplete</string>
+
+   <!-- <string name="sign_received_condition"> Received goods in good condition </string>-->
+    <string name="sign_received_condition"> రిసీవ్డ్ గూడ్స్ ఇన్ గుడ్ కం </string>
+    <string name="ord_title_pending"> Pending </string>
+    <string name="ord_title_success"> Success </string>
+    <string name="ord_title_failed"> Failed </string>
+    <string name="delivered_date_new"> పంపిణీ తేదీ </string>
+    <string name="select_reason_def"> సెలెక్ట్ రీజ </string>
+    <string name="shipment_already_delivered"> షిప్\u200cమెంట్ ఆల్\u200cరెడి డెలివర్డ్	 </string>
+    <string name="relation">Relation Proof</string>
+    <string name="relationproof">Relation Proof</string>
+    <string name="check_all">Check All</string>
+    <string name="press_otp_match">Please press to getotp</string>
+    <string name="no_order">There is no orders in the list so can\'t able to proceed now</string>
+    <string name="oust_train">Training</string>
+</resources>

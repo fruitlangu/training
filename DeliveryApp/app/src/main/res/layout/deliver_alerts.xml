@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_layout_corner"
+    android:minWidth="@dimen/dialog_size"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll_alert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_txt_size"
+                android:padding="@dimen/pen_margin_left_name"
+                android:text="@string/fill_field"
+                android:textColor="@color/red"
+                android:textSize="@dimen/deliver_size" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_cust_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/name"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/ord_ship_add"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/map_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/map_root_layout"
+                android:layout_below="@+id/input_fr_city"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-5dp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/loc_address"
+                    android:layout_width="@dimen/map_btn_height"
+                    android:layout_height="@dimen/map_btn_weight"
+                    android:layout_below="@+id/input_fr_city"
+                    android:layout_marginLeft="@dimen/map_btn_left"
+                    android:layout_marginTop="@dimen/map_marign_top"
+                    android:layout_toLeftOf="@+id/map_layout"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/map_btn_padding"
+                    android:singleLine="true"
+                    android:text="@string/add_location_text"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/map_btn_size" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/map_img1_margintop"
+                    android:background="@drawable/repeat"
+                    android:contentDescription="@string/direction" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="@dimen/map_txt_width"
+                    android:layout_height="@dimen/map_txt_height"
+                    android:layout_marginTop="@dimen/map_txt_martop"
+                    android:layout_marginEnd="@dimen/map_txt_marright"
+                    android:layout_marginRight="@dimen/map_txt_marright"
+                    android:layout_weight="3.4"
+                    android:background="@drawable/text_border_color"
+                    android:paddingStart="@dimen/map_txt_padleft"
+                    android:paddingLeft="@dimen/map_txt_padleft"
+                    android:paddingEnd="@dimen/map_txt_padright"
+                    android:paddingRight="@dimen/map_txt_padright"
+                    android:text="@string/get_location"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/map_btn_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/map_img2_width"
+                    android:layout_height="@dimen/map_img2_height"
+                    android:layout_marginStart="@dimen/map_img2_left"
+                    android:layout_marginLeft="@dimen/map_img2_left"
+                    android:layout_marginTop="@dimen/map_img2_top"
+                    android:layout_marginEnd="@dimen/map_img2_right"
+                    android:layout_marginRight="@dimen/map_img2_right"
+                    android:background="@drawable/right_down_arrow"
+                    android:contentDescription="@string/direction" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/google_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/map_img3_top"
+                    android:layout_marginEnd="@dimen/map_img3_right"
+                    android:layout_marginRight="@dimen/map_img3_right"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/google_map" />
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_landmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/landmark"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_landmark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/pincode"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/phnumber"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txt_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="@dimen/pro_margin_left"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:layout_marginRight="@dimen/pro_margin_left"
+                        android:hint="@string/amount"
+                        android:theme="@style/AppTheme">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/input_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:textColor="@color/colorPrimary" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:paddingRight="10dp">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/cb_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cash Collected"
+                        android:visibility="gone" />
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/cb_neft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Neft"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_neft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="NEFT"
+                android:theme="@style/AppTheme"
+                android:visibility="gone">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_neft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:textColor="@color/colorPrimary"
+                    android:visibility="gone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_opt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/opt"
+                android:theme="@style/AppTheme"
+                android:visibility="gone">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:nextFocusDown="@+id/input_urn"
+                    android:textColor="@color/colorPrimary" />
+                <!--android:imeOptions="actionDone"-->
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_urn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/urn"
+                android:theme="@style/AppTheme"
+                android:visibility="gone">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_urn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="16"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_voter_Aadhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/aa_proof_lable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:text="Select ID Type :" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/spinner_bg">
+
+                        <TextView
+                            android:id="@+id/sp_proof"
+                            style="@style/Widget.AppCompat.Spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="Aadhar" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txt_voterid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="@dimen/pro_margin_left"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:layout_marginRight="@dimen/pro_margin_left"
+                        android:hint="Enter Proof ID"
+                        android:theme="@style/AppTheme">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/input_voterid"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:textColor="@color/colorPrimary" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <!--   <ImageView
+                           android:id="@+id/iv_delAadharScan"
+                           android:layout_width="50dp"
+                           android:layout_marginTop="10dp"
+                           android:layout_height="50dp"
+                           android:layout_marginLeft="20dp"
+                           android:src="@drawable/aadhaar_logo" />-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_delAadharScan"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/aadhaar_logo" />
+
+                        <ImageView
+                            android:id="@+id/iv_delVoterOcr"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/voter"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sr_proof_lable"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:text="Received by" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:background="@drawable/spinner_bg">
+
+                        <TextView
+                            android:id="@+id/sr_proof"
+                            style="@style/Widget.AppCompat.Spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:text="Self" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_other_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txt_other_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="@dimen/pro_margin_left"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:layout_marginRight="@dimen/pro_margin_left"
+                        android:hint="Enter name"
+                        android:theme="@style/AppTheme">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/input_other_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:textColor="@color/colorPrimary" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/redirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:text="@string/Redirect" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb_pickup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:text="Pickup"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_pickup_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <!--android:visibility="gone"-->
+                <LinearLayout
+                    android:id="@+id/ll_success_fail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_main">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/activity_horizontal_margin"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rdsuccess"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Pickup Success"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/rdfailed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pickup Failed"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_checkbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/per_infobutton"
+                    android:layout_marginStart="@dimen/pro_margin_left"
+                    android:layout_marginLeft="@dimen/pro_margin_left"
+                    android:layout_marginTop="@dimen/pro_margin_left"
+                    android:layout_marginEnd="@dimen/pro_margin_left"
+                    android:layout_marginRight="@dimen/pro_margin_left">
+
+                    <CheckBox
+                        android:id="@+id/cb_pickup_complete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvpickup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pickup Completed"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub_lay4"
+                    android:layout_width="@dimen/linear_height"
+                    android:layout_height="@dimen/linear_height"
+                    android:layout_gravity="fill_horizontal"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imag_name"
+                        android:layout_width="@dimen/image_width"
+                        android:layout_height="@dimen/image_height"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:src="@drawable/photocamera" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="@dimen/btn_txt_size"
+                android:layout_marginBottom="@dimen/btn_txt_size"
+                android:orientation="horizontal"
+                android:padding="@dimen/pro_margin_left"
+                android:weightSum="2">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/back"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/alert_margin"
+                    android:layout_marginLeft="@dimen/alert_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_round_corner"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="@string/back"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/deliver_alert_size"
+                    android:textStyle="bold" />
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/submit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/alert_margin"
+                    android:layout_marginRight="@dimen/alert_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_right_round_corner"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="@string/submit"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/deliver_alert_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

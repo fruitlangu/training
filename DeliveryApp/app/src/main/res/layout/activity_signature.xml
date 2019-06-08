@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/ColorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/sign_here_title"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_size" />
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="@dimen/weight_width"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@color/ColorPrimary"
+                    android:text="@string/hint_cancel"
+                    android:textColor="@android:color/white"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/clear"
+                    android:layout_width="@dimen/weight_width"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_weight="1"
+                    android:background="@color/ColorPrimary"
+                    android:text="@string/hint_clear"
+                    android:textColor="@android:color/white"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/getsign"
+                    android:layout_width="@dimen/weight_width"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_weight="1"
+                    android:background="@color/ColorPrimary"
+                    android:text="@string/hint_save"
+                    android:textColor="@android:color/white"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_white">
+
+                <TextView
+                    android:id="@+id/Txt_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/sign_received_condition"
+                    android:textColor="@color/textblack"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/canvasLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sig_btm_sze"
+                android:background="@color/CanvasBackground"
+                android:orientation="vertical" />
+
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/feedback_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/feedback_ques"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/feed_height"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:background="@color/dark_white"
+                    android:gravity="center"
+                    android:text="@string/feed_back"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_size"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

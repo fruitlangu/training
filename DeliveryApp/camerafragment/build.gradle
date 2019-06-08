@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:28.+'
+    implementation 'com.android.support:appcompat-v7:28.+'
+
+    /* compile 'com.github.bumptech.glide:annotations:4.7.1'
+     compile 'com.github.bumptech.glide:glide:4.7.1'
+     annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'*/
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.4'
+}
+
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'CameraFragment'
+    orgName = 'florent37'
+
+    publishedGroupId = 'com.github.florent37'
+    libraryName = 'CameraFragment'
+    artifact = 'camerafragment'
+
+    libraryDescription = 'CameraFragment'
+
+    siteUrl = 'https://github.com/florent37/CameraFragment'
+    gitUrl = 'https://github.com/florent37/CameraFragment.git'
+
+    libraryVersion = 28
+
+    developerId = 'florent37'
+    developerName = 'Florent Champigny'
+    developerEmail = 'champigny.florent@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+

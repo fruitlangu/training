@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.boon.inthree.Adapters.CartAdapterqty">
+
+    <item
+        android:id="@+id/menu_aadhar"
+        android:title="Aadhar"/>
+
+    <item
+        android:id="@+id/menu_voter"
+        android:title="Voter ID"/>
+    <item
+        android:id="@+id/menu_urn"
+        android:title="Unique ID "/>
+</menu>

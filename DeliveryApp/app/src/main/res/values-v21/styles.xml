@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="DialogThemePreLollipop" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/dark_white</item>
+        <item name="colorControlNormal">@color/dark_white</item>
+        <item name="buttonTint">@color/dark_white</item>
+        <item name="android:textColor">@color/dark_white</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+    <style name="textsize"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/progressBar1"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:visibility="visible"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        app:indicatorColor="@color/red"
+        app:indicatorName="BallSpinFadeLoaderIndicator"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+
+

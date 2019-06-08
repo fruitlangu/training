@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_pro_name"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Toshiba Tv"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:id="@+id/pa_product_name"
+                    android:gravity="center|left"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_pro_code"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="10234"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:id="@+id/pa_product_code"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="1240"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:id="@+id/pa_product_amt"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_qty"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="22"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:id="@+id/pa_product_qty"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_ent_qty"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_width="10dp"
+                    android:layout_weight=".1"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    android:textSize="@dimen/par_txt_size"
+                    android:textColor="@color/textblack"
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/edittext_border"
+                    android:id="@+id/pa_etr_qty"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:text="*"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/faild"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_amount_colleted"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_amt_colleted"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight="0.1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_total"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:id="@+id/pa_cal"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".4"
+                    android:id="@+id/pa_total"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+

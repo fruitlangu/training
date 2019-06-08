@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:padding="10dp"
+       android:layout_height="wrap_content">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:text="Please Scan the Invoice number for the "
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:textSize="18dp"
+           android:gravity="center"
+           android:layout_height="wrap_content" />
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Customer   Name"
+               android:layout_weight="1"
+               android:layout_marginLeft="@dimen/txt_margin_top"
+               android:textColor="@color/black"
+               android:textSize="15dp" />
+
+           <TextView
+               android:id="@+id/custname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginRight="5dp"
+               android:text="Shipment id"
+               android:textColor="@color/tabDark"
+               android:textSize="15dp" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Shipment number"
+               android:layout_weight="1"
+               android:layout_marginLeft="@dimen/txt_margin_top"
+               android:textColor="@color/black"
+               android:textSize="15dp" />
+
+           <TextView
+               android:id="@+id/shipid"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="5dp"
+               android:layout_weight="1"
+               android:text="Shipment id "
+               android:textColor="@color/tabDark"
+               android:textSize="15dp" />
+       </LinearLayout>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:id="@+id/lay_qrcode"
+           android:layout_marginTop="5dp"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/invoice"
+               android:layout_width="110dp"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/txt_margin_top"
+               android:layout_marginTop="10dp"
+               android:text="Invoice Number"
+               android:textColor="@color/black"
+               android:textSize="15dp" />
+
+           <!--android:maxLength="16"-->
+
+           <EditText
+               android:id="@+id/tv_invoice_id"
+               android:layout_width="120dp"
+               android:layout_height="30dp"
+               android:layout_marginTop="5dp"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="38dp"
+               android:background="@drawable/edittext_border"
+               android:drawablePadding="10dp"
+               android:gravity="center"
+
+               android:maxLines="4"
+               android:hint="Enter or Scan Invoice"
+               android:textColor="@color/textblack"
+               android:textSize="@dimen/txt_main_size" />
+
+           <ImageView
+               android:id="@+id/lmg_qrcode"
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:layout_alignParentRight="true"
+               android:layout_marginTop="2dp"
+               android:layout_marginRight="1dp"
+               android:src="@drawable/ic_qrcode" />
+       </RelativeLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_width="100dp"
+               android:id="@+id/btn_cancel"
+               android:text="Cancel"
+               android:background="@drawable/btn_round_corner"
+               android:layout_marginLeft="15dp"
+               android:textColor="@color/dark_white"
+               android:layout_height="50dp" />
+
+           <Button
+               android:layout_width="100dp"
+               android:id="@+id/btn_submit"
+               android:layout_marginRight="35dp"
+               android:layout_marginLeft="25dp"
+               android:text="OK"
+               android:background="@drawable/btn_right_round_corner"
+               android:textColor="@color/dark_white"
+               android:layout_alignParentRight="true"
+               android:layout_height="50dp" />
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+</LinearLayout>

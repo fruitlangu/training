@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical"
+    android:padding="@dimen/ord_padding">
+    <!--android:background="#e9e9e9"-->
+    <LinearLayout
+        android:id="@+id/par_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e9e9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/ord_padding_bottom">
+
+            <TextView
+                android:id="@+id/tv_deliveryType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ord_title_margin"
+                android:text="Pickup"
+                android:textColor="@color/textblack"
+                android:textSize="@dimen/ord_txt_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/ord_pad_bottom">
+
+            <TextView
+                android:id="@+id/tv_order_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000453671"
+                android:textColor="@color/textblack"
+                android:textSize="@dimen/ord_txt_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/ord_padding_left"
+                android:text="-"
+                android:textColor="@color/textblack"
+                android:textSize="@dimen/ord_txt_size" />
+
+            <TextView
+                android:id="@+id/tv_shipping_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/ord_padding_left"
+                android:text="1119896245"
+                android:textColor="@color/textblack"
+                android:textSize="@dimen/ord_txt_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scroll"
+        android:layout_above="@+id/per_infobutton"
+        android:scrollbars="none"
+        android:layout_below="@+id/par_title"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:useDefaultMargins="true">
+
+                    <LinearLayout
+                        android:id="@+id/sub_lay1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/linear_height"
+                        android:layout_columnWeight="1"
+                        android:background="#fff"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_custname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/image_height"
+                            android:layout_marginTop="@dimen/txt_margin_top"
+                            android:gravity="center"
+                            android:text="John Doe"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/txt_margin_top"
+                            android:gravity="center"
+                            android:text="Name"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/txt_main_size" />
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub_lay2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/linear_height"
+                    android:layout_columnWeight="1"
+                    android:background="#fff"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_cust_phno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/image_height"
+                        android:layout_marginTop="@dimen/txt_margin_top"
+                        android:gravity="center"
+                        android:text="1234567890"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/txt_margin_top"
+                        android:gravity="center"
+                        android:text="@string/phnumber"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/txt_main_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub_lay3"
+                    android:layout_width="0dp"
+                    android:background="#fff"
+                    android:layout_height="@dimen/linear_height"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_place"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/image_height"
+                        android:layout_marginTop="@dimen/txt_margin_top"
+                        android:gravity="center"
+                        android:lines="3"
+                        android:text="Somewhere in this planet"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/txt_margin_top"
+                        android:gravity="center"
+                        android:text="Address"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/txt_main_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sub_lay4"
+                    android:layout_width="0dp"
+                    android:background="#fff"
+                    android:layout_height="@dimen/linear_height"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imag_name"
+                        android:layout_width="@dimen/image_width"
+                        android:layout_height="@dimen/image_height"
+                        android:layout_marginTop="@dimen/txt_margin_top"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:src="@drawable/camera" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/txt_margin_top"
+                        android:gravity="center"
+                        android:text="Pickup Proof"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/txt_main_size"/>
+
+                </LinearLayout>
+
+            </GridLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_checkbox"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/ll_main"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_partial_pickup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Partial Pickup Products >>"
+                    android:visibility="gone"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:padding="6dp"/>
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/cb_pickupfailed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/checkBoxComponent"
+                        android:text="Pickup Failed"
+                        android:textSize="16sp"/>
+
+                <RadioGroup
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rdsuccess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Pickup Sucess "
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdfailed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pickup Failed"
+                        android:textSize="18sp"/>
+                </RadioGroup>
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/sp_select_reason"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textStyle="bold"
+                    android:paddingLeft="@dimen/ord_padding_left"
+                    android:gravity="center|left"
+                    android:visibility="gone"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_parcial_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pro_re_btn_hieght"
+                android:background="@color/call"
+                android:text="@string/ord_delivery"
+                android:textColor="@color/bg_white"
+                android:textSize="@dimen/pro_txt_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+   <!-- <android.support.design.widget.NavigationView
+        android:id="@+id/per_infobutton"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pro_re_btn_hieght"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_parcial_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/call"
+            android:text="@string/ord_delivery"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/pro_txt_size"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.NavigationView>-->
+</RelativeLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    tools:context="com.inthree.boon.deliveryapp.fragments.DeliverSummaryFragments">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:background="@drawable/village"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:padding="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:paddingEnd="@dimen/login_page_left"
+            android:paddingLeft="@dimen/login_page_left"
+            android:paddingRight="@dimen/padding"
+            android:paddingStart="@dimen/padding"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/delivery_summary"
+            android:textColor="@color/navigationBarColor"
+            android:textSize="@dimen/sum_text_size"
+            android:textStyle="bold"
+            />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/main_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/pending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding"
+                    android:text="@string/txt_pending"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/pending_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding"
+                    android:text="@string/pending"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dash_margin_top"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/successful"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding"
+                    android:text="@string/successful"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/successful_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding"
+                    android:text="@string/pending"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/dash_margin_top"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/failed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding"
+                    android:text="@string/failed"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/failed_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/padding"
+                    android:text="@string/pending"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dahs_height"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_title"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="@dimen/sum_chat_wight"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/deliver_padding_size"
+                android:paddingStart="@dimen/del_padding_right"
+                android:paddingRight="@dimen/del_padding_right"
+                android:paddingEnd="@dimen/del_padding_right"
+                android:paddingLeft="@dimen/del_padding_right"
+                android:paddingBottom="@dimen/dash_margin_top"
+                android:background="@color/sucess"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/success_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:text="0"
+                android:gravity="center"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textColor="@color/dark_white"
+                android:textSize="@dimen/sum_list_size"
+                android:textStyle="bold"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/success"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:text="@string/success"
+                    android:gravity="center"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="@dimen/sum_chat_wight"
+                android:layout_height="wrap_content"
+                android:background="@color/faild"
+                android:paddingTop="@dimen/deliver_padding_size"
+                android:paddingStart="@dimen/del_padding_right"
+                android:paddingRight="@dimen/del_padding_right"
+                android:paddingEnd="@dimen/del_padding_right"
+                android:paddingLeft="@dimen/del_padding_right"
+                android:paddingBottom="@dimen/dash_margin_top"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/fail_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:text="4"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/fail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:gravity="center"
+                    android:text="@string/failed"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="@dimen/sum_chat_wight"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/deliver_padding_size"
+                android:paddingStart="@dimen/del_padding_right"
+                android:paddingRight="@dimen/del_padding_right"
+                android:paddingEnd="@dimen/del_padding_right"
+                android:paddingLeft="@dimen/del_padding_right"
+                android:paddingBottom="@dimen/dash_margin_top"
+                android:background="@color/pending"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/pend_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:text="3"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/pend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:text="@string/txt_pending"
+                    android:gravity="center"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/sum_list_size"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

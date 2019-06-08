@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ @category Learning Space
+  ~ @copyright Copyright (C) 2017 Contus. All rights reserved.
+  ~ @license http://www.apache.org/licenses/LICENSE-2.0
+  -->
+
+<resources>
+    <color name="blue">#4c70ac</color>
+    <color name="brown">#e69774</color>
+    <color name="light_black">#99000000</color>
+    <color name="black">#000000</color>
+    <color name="black_offline">#1F1F1F</color>
+    <color name="live_title">#3D3D3D</color>
+    <color name="you_may_like_header">#A9A9A9</color>
+    <color name="section_divider">#f2f2f2</color>
+    <color name="otp_text_color">#333333</color>
+    <color name="header_section_color">#4d5559</color>
+    <color name="shadow_color">#80000000</color>
+    <color name="comment_color">#dedede</color>
+    <color name="boarder_color">#405b5b5b</color>
+    <color name="video_count">#757575</color>
+    <color name="video_title">#0C0C0C</color>
+    <color name="subscription_button">#fefefe</color>
+    <color name="horizontal_divider">#75a3a3a3</color>
+    <color name="read_more_text_color">#4c70ac</color>
+    <color name="txt_purple">#800080</color>
+
+    <color name="nameColor">#e1e0e0</color>
+    <color name="divider">#686868</color>
+    <color name="light_blue">#ff33b5e5</color>
+    <color name="white">#75FFFFFF</color>
+    <color name="playlist_section">#4b5784</color>
+    <color name="statusBarColor">#1362A3</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+    <color name="colorPrimary">#0771C4</color>
+    <color name="green">#23CD63</color>
+    <color name="red">#F44336</color>
+    <color name="light_grey">#e8eced</color>
+    <color name="light_grey_offline">#eeeeee</color>
+    <color name="dark_grey">#acaaaa</color>
+    <color name="light_grey_card">#75E0E0E0</color>
+    <color name="dark_white">#FFFFFF</color>
+    <color name="progress_loader_color">#66000000</color>
+
+    <!--signature pad-->
+    <color name="ColorPrimaryDark">#000000</color>
+    <color name="ColorPrimary">#202324</color>
+    <color name="BorderLineColor">#B8B9B1</color>
+    <color name="CanvasBackground">#ffffff</color>
+
+</resources>

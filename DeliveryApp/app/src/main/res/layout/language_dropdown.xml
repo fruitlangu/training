@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/alert_layout_corner"
+              android:minWidth="@dimen/dialog_size"
+              android:orientation="vertical">
+
+
+   <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_reason"
+
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:prompt="@string/change_language"/>
+  <!--  android:entries="@string/change_language"-->
+   <!-- android:entries="@array/reason_spinner"-->
+
+
+
+
+
+
+</LinearLayout>

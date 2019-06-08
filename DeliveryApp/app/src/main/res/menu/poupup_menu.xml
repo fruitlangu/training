@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.boon.inthree.Adapters.CartAdapterqty">
+
+    <item
+        android:id="@+id/menu_english"
+        android:title="English"/>
+
+    <item
+        android:id="@+id/menu_hindi"
+        android:title="Hindi(हिन्)"/>
+
+    <item
+        android:id="@+id/menu_telugu"
+        android:title="Telugu(తెలుగు)"/>
+
+    <item
+        android:id="@+id/menu_tamil"
+        android:title="Tamil(தமிழ்)"/>
+
+    <item
+        android:id="@+id/menu_bengali"
+        android:title="Bengali(বঙ্গাল)"/>
+
+    <item
+        android:id="@+id/menu_marathi"
+        android:title="Marathi(मराठ)"/>
+    <item
+        android:id="@+id/menu_punjabi"
+        android:title="Punjabi(ਪੰਜਾਬੀ)"/>
+    <item
+        android:id="@+id/menu_assamese"
+        android:title="Assamese(আচামিজ)"/>
+    <item
+        android:id="@+id/menu_kannada"
+        android:title="Kannada(ಕನ್ನಡ)"/>
+    <item
+        android:id="@+id/menu_odia"
+        android:title="Odia(ଓଡ଼ିଆ)"/>
+</menu>

@@ -1,0 +1,174 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Lastmile</string>
+    <string name="share_via">Share via</string>
+    <string name="read_less">Read Less</string>
+    <string name="read_more">....Read More</string>
+    <string name="simple_date_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="days_ago">days ago</string>
+
+    <!-- Error messages-->
+    <string name="check_internet">Unable to connect internet. Please check your internet and try again</string>
+    <string name="error_passing_data">Error passing data.</string>
+
+    <string name="scroll_key">mScroller</string>
+    <string name="delivery_summary">Delivery  Summary</string>
+    <string name="txt_pending">Pending</string>
+    <string name="successful">Successful</string>
+    <string name="failed">Failed</string>
+    <string name="success">Success</string>
+    <string name="dash_order">Total Orders</string>
+    <string name="fill_field">Please fill the Fields *</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+
+    <!--Deliver details strings-->
+    <string name="pername">Enter the Name</string>
+    <string name="amount">Amount</string>
+    <string name="valid_amount">Enter the Amount</string>
+    <string name="error_phone">Enter  the Phone Number</string>
+    <string name="error_pincode">Enter the Pincode</string>
+    <string name="valid_pincode">Enter the Valid Pincode</string>
+    <string name="getwarning">Are you sure  want to fetch the details</string>
+    <string name="back_pressed">Are you sure  want to go back?</string>
+
+
+    <!--Signature activity-->
+    <string name="sign_here_title">Sign Here</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+    <string name="unDelReason">Enter the Remarks</string>
+    <string name="landmark">LandMark</string>
+    <string name="Redirect">Redirect</string>
+    <string name="valid_add">Enter the Address</string>
+
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="add_location_text">Apply</string>
+    <string name="direction">Direction</string>
+    <string name="get_location">Getting Location</string>
+    <string name="gps_signal">Satellite signal is weak so, not getting the current location</string>
+
+    <!--Login Page-->
+    <string name="valid_user_name">Enter the username</string>
+    <string name="valid_pass">Enter the password</string>
+    <string name="wrong_user">\"Wrong User !! Need to Check Online?</string>
+    <string name="invalid_login">Invalid Login</string>
+    <string name="adhaar">Aadhaar</string>
+    <string name="undeliver_res">undelivered success</string>
+    <string name="upload_failed">Already deliver has been upload successfully.so uploade has been failed.</string>
+    <string name="delivery_offline">Shipment has been stored offline</string>
+    <string name="update_app"><u>update available</u>.</string>
+
+
+    <!--Tracking the vehicle system via gps-->
+    <string name="title_activity_main">Transport Tracker</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="enter_transport_id">Enter transport ID</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string
+        name="location_permissions_required">Location permissions are required for tracking
+        location. Please grant these permissions to continue.</string>
+    <string name="missing_inputs">Please enter a transport ID, email and password</string>
+    <string name="tracking">Tracking &#x2713;</string>
+    <string name="not_tracking">Not tracking &#x2718;</string>
+    <string name="connecting">Connecting &#8230;</string>
+    <string name="status">status</string>
+    <string name="location_permission_required">Location permission required.</string>
+    <string name="gps_required">Gps not enabled.</string>
+    <string name="enable">Enable</string>
+    <string name="auth_failed">Firebase authentication failed</string>
+    <string name="confirm_stop">Do you really want to disable location tracking?</string>
+
+    <string name="firebase_path" translatable="false">raw-locations/</string>
+    <string name="prefs" translatable="false">prefs</string>
+    <string name="transport_id" translatable="false">transport_id</string>
+    <string name="email" translatable="false">email</string>
+    <string name="password" translatable="false">password</string>
+
+
+    <!--Check whether device date has been changed or not-->
+    <string name="tt_time_gmt">TrueTime: %1$s [GMT]</string>
+    <string name="tt_time_pst">TrueTime: %1$s [PST]</string>
+    <string name="tt_time_device">Device Time: %1$s [PST]</string>
+    <string name="exactdate">Alert Date</string>
+    <string name="get_date_warn">Your Mobile Date Time Is not accurate, Kindly adjust your clock and try again</string>
+    <string name="accept">Accept</string>
+    <string name="backupalert">Sorry you dont have access to take the backup now, Please contact the administrator</string>
+    <string name="back_internet">Please switch on your internet connection</string>
+    <string name="feed_back">FeedBack</string>
+
+    <string name="opt">OTP</string>
+    <string name="urn">URN</string>
+    <string name="error_otp">Enter the OTP</string>
+    <string name="error_urn">Enter the URN</string>
+    <string name="force_update">Update Available</string>
+    <string name="force_update_name">A Newer version of the Lastmile app is available to download</string>
+    <string name="force_update_confirm">Update</string>
+    <string name="force_update_ok">No,Thanks</string>
+    <string name="back_up">Backup Completed</string>
+    <string name="backup_suc">Backup Successful</string>
+    <string name="zipfile">zipfile failed</string>
+    <string name="backup_server">Backup saved but not sent to server</string>
+    <string name="back_up_title">BACKUP</string>
+    <string name="cash_colle">Please confirm Cash Collected ?</string>
+    <string name="device_not_supp">This device is not supported.</string>
+    <string name="permission">Location permissions are required because we need to get the current latitude and longitude for  current location</string>
+    <string name="warning">Warning!</string>
+    <string name="camera_permission">Camera and storage permissions are required because we need to take the proof</string>
+    <string name="info">Info</string>
+    <string name="sure">Are you sure</string>
+    <string name="undeliver_Reason">Please Select a Valid Reason</string>
+    <string name="location_permission">Location Permission</string>
+    <string name="location_per_deni">Location Permission Denied:</string>
+    <string name="Location_warning">Location Service Warning</string>
+    <string name="Location_enabled">Could  not get the location at the moment, Make sure location is enabled on the device</string>
+    <string name="undeli_title">Undelivery</string>
+    <string name="undeli_success_msg">Undelivered has been successfully uploaded</string>
+    <string name="undeli_notsuccess_msg">Undelivered hasn\'t successfully uploaded</string>
+    <string name="Location_warning_error">Couldn\'t get the location at the moment, Please try again later</string>
+    <string name="Location_not_up">Location Not Updated</string>
+    <string name="enter_qty">Please Enter Qty</string>
+    <string name="enter_qty_error">You didn\'t change the qty of products so could you please proceed with delivery</string>
+    <string name="enter_qtyno_error">You have entered 0 number of quantitity, So could you please process this as undelivered</string>
+    <string name="error_otp_match">OTP entered is incorrect</string>
+    <string name="error_urn_match">URN entered is incorrect</string>
+
+
+    <!--Delivery activity-->
+
+    <string name="sign_error">Signature</string>
+    <string name="sign_erst">Please sign you signature</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="unit_price">Unit Price :</string>
+    <string name="partial_quantity">Quantity :</string>
+    <string name="partial_del_qty">Delivery Qty :</string>
+    <string name="partial_total_amt">Total Amount :</string>
+
+    <string name="view_details">View Details</string>
+    <string name="hide_details">Hide Details</string>
+    <string name="ord_product_code">Product Code : </string>
+    <string name="delivery_success_msg">Shipment Delivered successfully </string>
+    <string name="select_phone_no"> Select a Phone Number </string>
+    <string name="select_location"> Select Location </string>
+    <string name="main_logout_alert_sync"> Cannot Logout Offline Orders Not Synced </string>
+    <string name="dl_back_pressed"> Back Pressed </string>
+    <string name="main_choose_lang"> Choose Language </string>
+
+    <string name="sign_received_condition"> Received goods in good condition </string>
+    <string name="ord_title_pending"> Pending </string>
+    <string name="ord_title_success"> Success </string>
+    <string name="ord_title_failed"> Failed </string>
+    <string name="delivered_date_new"> Delivered Date </string>
+    <string name="select_reason_def"> Select Reason </string>
+    <string name="shipment_already_delivered"> Shipment Already Delivered </string>
+
+</resources>
+

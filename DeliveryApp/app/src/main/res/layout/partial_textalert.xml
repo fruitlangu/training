@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/alert_layout_corner"
+              android:minWidth="@dimen/dialog_size"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scroll_alert"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_txt_size"
+        android:padding="@dimen/pen_margin_left_name"
+        android:text="Enter Your Comments"
+        android:textColor="@color/red"
+        android:textSize="@dimen/deliver_size"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_cust_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/pro_margin_left"
+        android:layout_marginLeft="@dimen/pro_margin_left"
+        android:layout_marginRight="@dimen/pro_margin_left"
+        android:layout_marginStart="@dimen/pro_margin_left"
+        android:layout_marginTop="@dimen/pro_margin_left"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:imeOptions="actionDone"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="@dimen/btn_txt_size"
+        android:layout_marginTop="@dimen/btn_txt_size"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="@dimen/pro_margin_left">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alert_margin"
+            android:layout_marginStart="@dimen/alert_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_round_corner"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:text="@string/back"
+            android:textColor="@color/dark_white"
+            android:textSize="@dimen/deliver_alert_size"/>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alert_margin"
+            android:layout_marginRight="@dimen/alert_margin"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:background="@drawable/btn_right_round_corner"
+            android:padding="5dp"
+            android:text="@string/submit"
+            android:textColor="@color/dark_white"
+            android:textSize="@dimen/deliver_alert_size"/>
+
+    </LinearLayout>
+   </LinearLayout>
+    </ScrollView>
+</LinearLayout>

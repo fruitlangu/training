@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/distri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.widget.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/textblack"
+            android:text="Enter Other Reason"/>
+
+       <!-- <android.widget.TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/textblack"
+            android:text="@string/retailer_name"/>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:background="#fff">
+
+
+
+
+            <android.widget.EditText
+                android:id="@+id/et_other_reason"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:hint="Enter Reason..."
+                android:textColorHint="@color/textblack"
+                android:popupBackground="@color/input_login_hint"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/appbar_padding_top"
+                android:textColor="@color/textblack"
+                android:layout_alignLeft="@+id/spintext"
+                android:layout_gravity="center"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:background="@color/bgpd"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/close"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/textblack"
+                android:layout_weight="1"
+
+                android:text="Close" />
+     <!--       android:enabled="false"-->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/backgr"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/proceed"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="Done"
+
+                android:textColor="@color/bg_main" />
+           <!-- android:enabled="false"
+            android:alpha="0.4"-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

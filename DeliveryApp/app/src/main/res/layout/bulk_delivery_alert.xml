@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_layout_corner"
+    android:minWidth="@dimen/dialog_size"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll_alert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btn_txt_size"
+                android:padding="@dimen/pen_margin_left_name"
+                android:text="@string/fill_field"
+                android:textColor="@color/red"
+                android:textSize="@dimen/deliver_size" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_cust_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/name"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/ord_ship_add"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/map_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/map_root_layout"
+                android:layout_below="@+id/input_fr_city"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-5dp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/loc_address"
+                    android:layout_width="@dimen/map_btn_height"
+                    android:layout_height="@dimen/map_btn_weight"
+                    android:layout_below="@+id/input_fr_city"
+                    android:layout_marginLeft="@dimen/map_btn_left"
+                    android:layout_marginTop="@dimen/map_marign_top"
+                    android:layout_toLeftOf="@+id/map_layout"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/map_btn_padding"
+                    android:singleLine="true"
+                    android:text="@string/add_location_text"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/map_btn_size" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/map_img1_margintop"
+                    android:background="@drawable/repeat"
+                    android:contentDescription="@string/direction" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="@dimen/map_txt_width"
+                    android:layout_height="@dimen/map_txt_height"
+                    android:layout_marginTop="@dimen/map_txt_martop"
+                    android:layout_marginEnd="@dimen/map_txt_marright"
+                    android:layout_marginRight="@dimen/map_txt_marright"
+                    android:layout_weight="3.4"
+                    android:background="@drawable/text_border_color"
+                    android:paddingStart="@dimen/map_txt_padleft"
+                    android:paddingLeft="@dimen/map_txt_padleft"
+                    android:paddingEnd="@dimen/map_txt_padright"
+                    android:paddingRight="@dimen/map_txt_padright"
+                    android:text="@string/get_location"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/map_btn_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="@dimen/map_img2_width"
+                    android:layout_height="@dimen/map_img2_height"
+                    android:layout_marginStart="@dimen/map_img2_left"
+                    android:layout_marginLeft="@dimen/map_img2_left"
+                    android:layout_marginTop="@dimen/map_img2_top"
+                    android:layout_marginEnd="@dimen/map_img2_right"
+                    android:layout_marginRight="@dimen/map_img2_right"
+                    android:background="@drawable/right_down_arrow"
+                    android:contentDescription="@string/direction" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/google_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/map_img3_top"
+                    android:layout_marginEnd="@dimen/map_img3_right"
+                    android:layout_marginRight="@dimen/map_img3_right"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/google_map" />
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_landmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/landmark"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_landmark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/pincode"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/pro_margin_left"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:layout_marginTop="@dimen/pro_margin_left"
+                android:layout_marginEnd="@dimen/pro_margin_left"
+                android:layout_marginRight="@dimen/pro_margin_left"
+                android:hint="@string/phnumber"
+                android:theme="@style/AppTheme">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/input_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimary" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/pro_margin_left"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txt_opt"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/pro_margin_left"
+                        android:layout_marginLeft="@dimen/pro_margin_left"
+                        android:layout_marginTop="@dimen/pro_margin_left"
+                        android:layout_marginEnd="@dimen/pro_margin_left"
+                        android:layout_marginRight="@dimen/pro_margin_left"
+                        android:hint="@string/opt"
+                        android:theme="@style/AppTheme"
+                        android:visibility="visible">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/input_otp"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:nextFocusDown="@+id/input_urn"
+                            android:textColor="@color/colorPrimary" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:id="@+id/txt_get_otp"
+                        android:text="GET OTP"
+                        android:background="@drawable/btn_right_round_corner"
+                        android:visibility="visible"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/txt_main_size"
+                        android:textColor="@color/dark_white"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:id="@+id/txt_resend_otp"
+                        android:text="RESEND OTP"
+                        android:background="@drawable/btn_round_corner"
+                        android:visibility="gone"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/txt_main_size"
+                        android:textColor="@color/dark_white"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="@dimen/btn_txt_size"
+                android:layout_marginBottom="@dimen/btn_txt_size"
+                android:orientation="horizontal"
+                android:padding="@dimen/pro_margin_left"
+                android:weightSum="2">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/back"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/alert_margin"
+                    android:layout_marginLeft="@dimen/alert_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_round_corner"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="@string/back"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/deliver_alert_size"
+                    android:textStyle="bold" />
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/submit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/alert_margin"
+                    android:layout_marginRight="@dimen/alert_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_right_round_corner"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="@string/submit"
+                    android:textColor="@color/dark_white"
+                    android:textSize="@dimen/deliver_alert_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

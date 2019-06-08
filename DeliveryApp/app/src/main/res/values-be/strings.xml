@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">Lastmile</string>
+    <string name="share_via">মাধ্যমে শেয়ার করুন</string>
+    <string name="read_less">কম পড়ুন</string>
+    <string name="read_more">....আরো পড়ুন</string>
+    <string name="simple_date_format">বছর-মাস-দিন-ঘন্টা:মিনিট:সেকেন্ড</string>
+    <string name="seconds_ago">সেকেন্ড আগে</string>
+    <string name="minutes_ago">মিনিট আগে</string>
+    <string name="hours_ago">ঘন্টা আগে</string>
+    <string name="days_ago">দিন আগে</string>
+    <!-- Error messages-->
+    <string name="check_internet">ইন্টারনেটের সাথে যোগাযোগ করতে অক্ষম অনুগ্রহ করে আপনার ইন্টারনেট যাচাই করুন এবং পুনরায় চেষ্টা করুন</string>
+    <string name="error_passing_data">ডেটা আদানপ্রদানে ত্রুটিI</string>
+
+
+
+   
+    <string name="action_settings">সেটিংস</string>
+    <!-- Login Page -->
+    <string name="txt_user_name">ব্যবহারকারীর নাম</string>
+    <string name="txt_password">পাসওয়ার্ড</string>
+    <string name="hint_user_name">ব্যবহারকারীর নাম</string>
+    <string name="hint_password">পাসওয়ার্ড</string>
+    <string name="btn_login">লগইন</string>
+    <string name="btn_bar_code">স্ক্যানার</string>
+    <string name="rem_me">এটা মনে রাখবেন</string>
+    <!-- End Login Page -->
+    <!--  Main Page -->
+    <string name="start">শুরু করুন</string>
+    <string name="blukstart">বাল্ক শুরু করুন</string>
+    <string name="sync">সর্বশেষ সিনক্রোনাইজ</string>
+    <string name="summery">সারাংশ</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="backup">ব্যাকআপ</string>
+    <string name="logout">লগআউট</string>
+    <string name="switch_user">ব্যবহারকারী পরিবর্তন করুন</string>
+
+    <string name="start_alert">ডেলিভারির জন্য কোনো শিপমেন্ট উপলব্ধ নেই</string>
+    <string name="nointernet">কোনো ইন্টারনেট সংযোগ নেই, অনুগ্রহ করে ইন্টারনেট সংযুক্ত করুন...</string>
+    <string name="noordersum">কোনো ডেলিভারি অর্ডারের সারাংশ নেই</string>
+    <string name="under">নির্মানাধীন</string>
+    <!-- end main page -->
+    <!-- alert box-->
+    <string name="select_retailer">খুচরা বিক্রেতা নির্বাচন করুন</string>
+    <string name="retailer_name">খুচরা বিক্রেতার নাম লিখুন</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="showlogout">আপনি কি নিশ্চিত, যে আপনি লগ আউট করতে চান?</string>
+    <string name="showSwitch">আপনি কি নিশ্চিত, যে আপনি ব্যবহারকারী পরিবর্তন করতে চান?</string>
+    <string name="showexit">আপনি কি নিশ্চিত, যে আপনি এটি বন্ধ করতে চান?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">হ্যালো ব্ল্যান্ক ফ্রাগমেন্ট</string>
+    <!-- end alert box -->
+    <!--  delivery Page -->
+    <string name="name">নাম</string>
+    <string name="amountcolled">সংগ্রহ করা রাশি</string>
+    <string name="phnumber">ফোন নম্বর</string>
+    <string name="pincode">পিনকোড</string>
+    <string name="custdevelivery">গ্রাহককে ডেলিভারি</string>
+    <string name="delivery_proof">ডেলিভারির প্রমাণ</string>
+    <string name="invoice">চালান</string>
+    <string name="invoice_proof">চালানের প্রমাণ</string>
+    <string name="addressprof">ঠিকানার প্রমাণ</string>
+    <string name="sign">স্বাক্ষর</string>
+    <string name="maxqty">এই শিপমেন্টে আপনার শুধুমাত্র একটিই জিনিস আছে! আংশিক ডেলিভারির অনুমতি নেই!</string>
+    <!-- end delivery page -->
+    <!-- un delivery Page -->
+    <string name="reason">কারণ</string>
+    <string name="image">ছবি</string>
+    <string name="undelivered_proof">ডেলিভারি না হওয়া জিনিসের প্রমাণ</string>
+    <string name="remark">মন্তব্য</string>
+    <string name="delivery_summary">ডেলিভারির সারাংশ</string>
+    <string name="txt_pending">মুলতুবি আছে</string>
+    <string name="successful">সফল হয়েছে</string>
+    <string name="failed">ব্যর্থ হয়েছে</string>
+    <string name="success">সফল</string>
+    <string name="dash_order">মোট অর্ডার</string>
+    <string name="complete">সম্পূর্ণ</string>
+    <!-- end un delivery page -->
+    <!--  Menu Activity -->
+    <string name="pending">মুলতুবি আছে</string>
+    <string name="sucess">সফল</string>
+    <string name="faild">ব্যর্থ হয়েছে</string>
+    <!-- End Menu Activity-->
+    <!--  Fragement adapter menu Activity -->
+    <string name="orderno">অর্ডার নম্বর</string>
+    <string name="shipmentno">শিপমেন্ট নম্বর</string>
+    <string name="cusname">গ্রাহকের নাম</string>
+    <string name="search_edit">খুঁজুন</string>
+    <!-- End Fragement adapter menu Activity-->
+    <!-- Profile Activity-->
+    <string name="repass">পাসওয়ার্ড পুনরায় সেট করুন</string>
+    <string name="txt_name">নাম</string>
+    <string name="txt_contact">যোগাযোগের নম্বর</string>
+    <string name="txt_email">ইমেইল</string>
+    <string name="fill_field">অনুগ্রহ করে স্থানগুলি পূরণ করুন*</string>
+    <string name="submit">সাবমিট করুন</string>
+    <string name="back">ফিরে যান</string>
+    <string name="prompt">একটি কারণ নির্বাচন করুন</string>
+    <!--End  Profile Activity-->
+    <!-- Reset password -->
+    <string name="curpassword">বর্তমান পাসওয়ার্ড</string>
+    <string name="newpass">নতুন পাসওয়ার্ড</string>
+    <string name="confpass">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <!-- Order Deteils Page -->
+    <string name="ord_title">মুলতুবি আছে</string>
+    <string name="ord_number">অর্ডার নম্বর</string>
+    <string name="ord_cus_number">গ্রাহকের নম্বর</string>
+    <string name="ord_cus_name">গ্রাহকের নাম</string>
+
+    <string name="ord_del_date">ডেলিভার করা হবে</string>
+    <string name="ord_ship_add">শিপিংয়ের ঠিকানা</string>
+    <string name="ord_add">ঠিকানা</string>
+    <string name="ord_ship_city">শিপিংয়ের শহর</string>
+    <string name="ord_city">শহর</string>
+    <string name="ord_ship_pincode">শিপিংয়ের পিনকোড</string>
+    <string name="ord_ship_invoice">চালানের নম্বর</string>
+    <string name="ord_ship_number">শিপমেন্ট নম্বর</string>
+    <string name="ord_ship_invoic_amt">রাশি</string>
+    <string name="ord_ship_amt_coll">সংগ্রহ করা রাশি</string>
+    <string name="ord_ship_paymode">পেমেন্টের ধরন</string>
+    <string name="ord_ship_itemcode">পণ্যর কোড</string>
+    <string name="ord_ship_branchname">ক্লায়েন্টের শাখার নাম</string>
+    <string name="ord_ship_branchadd">শাখার ঠিকানা</string>
+    <string name="ord_ship_branch_pin">শাখার পিনকোড</string>
+    <string name="ord_ship_att_count">প্রচেষ্টা করার গণনা</string>
+
+    <string name="ord_delivery">ডেলিভারি</string>
+    <string name="ord_par_delivery">আংশিক ডেলিভারি</string>
+    <string name="ord_un_delivery">ডেলিভারি না হওয়া</string>
+    <!--Deliver details strings-->
+    <string name="pername">নাম প্রদান করুন</string>
+    <string name="amount">রাশি</string>
+    <string name="valid_amount">রাশি প্রদান করুন</string>
+    <string name="valid_phone_number">বৈধ ফোন নম্বর প্রদান করুন</string>
+    <string name="error_phone">ফোন নম্বর প্রদান করুন</string>
+    <string name="error_ship_address">শিপমেন্ট ঠিকানা প্রদান করুন</string>
+    <string name="error_pincode">পিনকোড প্রদান করুন</string>
+    <string name="valid_pincode">বৈধ পিনকোড প্রদান করুন</string>
+    <string name="getwarning">আপনি কি নিশ্চিত যে বিবরণ পেতে চান?</string>
+    <string name="back_pressed">আপনি কি নিশ্চিত যে ফিরে যেতে চান?</string>
+    <!--Signature activity-->
+    <string name="sign_here_title">এখানে স্বাক্ষর করুন</string>
+    <string name="hint_cancel">বাতিল করুন</string>
+    <string name="hint_clear">পরিস্কার করুন</string>
+    <string name="hint_save">সেভ করুন</string>
+    <string name="unDelReason">মন্তব্য প্রদান করুন</string>
+
+    <string name="country_prompt">একটি দেশ নির্বাচন করুন</string>
+    <string name="landmark">ল্যান্ডমার্ক</string>
+    <string name="address">ঠিকানা</string>
+    <string name="Redirect">পুন:নির্দেশিত</string>
+    <string name="valid_add">ঠিকানা প্রদান করুন</string>
+
+
+    <string name="ok">ঠিক আছে</string>
+    <string name="add_location_text">আবেদন করুন</string>
+    <string name="direction">দিক নির্দেশনা</string>
+    <string name="get_location">অবস্থান প্রাপ্ত হচ্ছে</string>
+    <string name="gps_signal">স্যাটেলাইট সিগন্যাল দুর্বল সেজন্য, বর্তমান অবস্থান প্রাপ্ত হচ্ছে না</string>
+    <string name="valid_user_name">ব্যবহারকারীর নাম প্রদান করুন</string>
+    <string name="valid_pass">পাসওয়ার্ড প্রদান করুন</string>
+    <string name="wrong_user">\&quot;ভুল ব্যবহারকারী !! অনলাইনে যাচাই করা প্রয়োজন কি?</string>
+    <string name="invalid_login">অবৈধ লগইন</string>
+    <!--    <string-array name="country_arrays">
+            <item>মালয়েশিয়া</item>
+	<item>মার্কিন যুক্তরাষ্ট্র</item>
+	<item>ইন্দোনেশিয়া</item>
+
+        </string-array>--><!-- Product Show -->
+        <string name="product_code">পণ্যর কোড</string>
+    <string name="product_name">পণ্যর নাম</string>
+    <string name="product_qty">পরিমাণ</string>
+    <string name="product_amt">রাশি</string>
+    <!-- partial delivery-->
+    <string name="prat_title">আংশিক ডেলিভারি</string>
+    <string name="par_ent_qty">ডেলিভারির পরিমাণ:</string>
+    <string name="par_amt_colleted">সংগ্রহ করা রাশি:</string>
+    <string name="par_total">মোট</string>
+    <string name="entervalid">অনুগ্রহ করে বৈধ পরিমাণ প্রদান করুন</string>
+    <string name="adhaar">আধার নম্বর</string>
+    <string name="undeliver_res">ডেলিভার না হওয়া জিনিস সফল হয়েছে</string>
+    <string name="upload_failed">ইতিমধ্যে ডেলিভার সফলভাবে আপলোড করা হয়েছে, সুতরাং আপলোড ব্যর্থ হয়েছেI</string>
+    <string name="delivery_offline">শিপমেন্ট অফলাইনে স্টোর করে রাখা আছে</string>
+    <string name="delivery_qty">ডেলিভারির পরিমাণ</string>
+
+    <string-array name="reason_spinner">
+        <item>কারণ নির্বাচন করুন</item>
+    </string-array>
+
+    <string name="update_app"><u>আপডেট উপলব্ধ</u></string>
+    <!--Tracking the vehicle system via gps-->
+    <string name="title_activity_main">ট্রান্সপোর্ট ট্র্যাকার</string>
+    <string name="start_tracking">ট্র্যাকিং শুরু করুন</string>
+    <string name="stop_tracking">ট্র্যাকিং বন্ধ করুন</string>
+    <string name="enter_transport_id">ট্রান্সপোর্ট আই.ডি প্রদান করুন</string>
+    <string name="enter_email">ইমেইল প্রদান করুন</string>
+    <string name="enter_password">পাসওয়ার্ড প্রদান করুন</string>
+    <string name="location_permissions_required">অবস্থান ট্র্যাক করার জন্য অবস্থানের অনুমতি প্রয়োজনI অব্যাহত রাখতে অনুগ্রহ করে এইসব অনুমতিগুলি প্রদান করুনI</string>
+    <string name="missing_inputs">অনুগ্রহ করে একটি ট্রান্সপোর্ট আই.ডি, ইমেইল এবং পাসওয়ার্ড প্রদান করুন</string>
+    <string name="tracking">ট্র্যাক করা হচ্ছে✓</string>
+    <string name="not_tracking">ট্র্যাক করা হচ্ছে না ✘</string>
+    <string name="connecting">যোগাযোগ করা হচ্ছে...</string>
+    <string name="status">স্ট্যাটাস</string>
+    <string name="location_permission_required">অবস্থানের অনুমতি প্রয়োজনI</string>
+    <string name="gps_required">জি.পি.এস সক্ষম নয়I</string>
+    <string name="enable">সক্ষম</string>
+    <string name="auth_failed">ফায়ারবেস প্রমাণীকরণ ব্যর্থ হয়েছে</string>
+    <string name="confirm_stop">আপনি কি সত্যিই অবস্থান ট্র্যাকিং অক্ষম করতে চান?</string>
+
+    <string name="firebase_path" translatable="false">raw-locations/</string>
+    <string name="prefs" translatable="false">prefs</string>
+    <string name="transport_id" translatable="false">transport_id</string>
+    <string name="email" translatable="false">email</string>
+    <string name="password" translatable="false">password</string>
+    <!--Check whether device date has been changed or not-->
+    <string name="tt_time_gmt">বাস্তবসময়: %1$s [জি.এম.টি]</string>
+    <string name="tt_time_pst">বাস্তবসময়: %1$s [পি.এস.টি]</string>
+    <string name="tt_time_device">ডিভাইসের সময়: %1$s [পি.এস.টি]</string>
+    <string name="exactdate">আল্যার্টের তারিখ</string>
+    <string name="get_date_warn">আপনার মোবাইলের তারিখ, সময় যথাযথ নয়, অনুগ্রহ করে আপনার ঘড়ি সমন্বয় করুন এবং পুনরায় চেষ্টা করুন</string>
+    <string name="accept">গ্রহন করুন</string>
+    <string name="backupalert">দুঃখিত আপনার কাছে এখন ব্যাকআপ নেওয়ার অধিকার নেই, অনুগ্রহ করে প্রশাসকের সাথে যোগাযোগ করুন</string>
+    <string name="back_internet">অনুগ্রহ করে আপনার ইন্টারনেট সংযুক্তি চালু করুন</string>
+    <string name="feed_back">প্রতিক্রিয়া জানান</string>
+    <string name="opt">ও.টি.পি</string>
+    <string name="urn">ইউ.আর.এন</string>
+    <string name="error_otp">ও.টি.পি প্রদান করুন</string>
+ <!--   <string name="error_urn">ও.টি.পি প্রদান করুন</string>-->
+    <string name="error_urn">Enter the URN</string>
+    <!--Splash activity-->
+    <string name="force_update">আপডেট উপলব্ধ আছে</string>
+    <string name="force_update_name">ডাউনলোড করার জন্য লাস্টমাইল অ্যাপের একটি নতুন সংস্করণ উপলব্ধ আছে</string>
+    <string name="force_update_confirm">আপডেট করুন</string>
+    <string name="force_update_ok">না, ধন্যবাদ</string>
+    <string name="back_up">ব্যাকআপ সম্পূর্ণ হয়েছে</string>
+    <string name="backup_suc">ব্যাকআপ সফল হয়েছে</string>
+    <string name="zipfile">জিপফাইল ব্যর্থ হয়েছে</string>
+    <string name="backup_server">ব্যাকআপ সেভ করা আছে কিন্তু সার্ভারে পাঠানো হয়নি</string>
+    <string name="back_up_title">ব্যাকআপ</string>
+    <string name="cash_colle">নগদ টাকা সংগ্রহ করা হয়েছে চেকবক্স যাচাই করা হয়নি</string>
+    <string name="device_not_supp">এই ডিভাইস সমর্থিত নয়I</string>
+    <string name="permission">অবস্থানের অনুমতি আবশ্যক কারণ বর্তমান অবস্থানের জন্য আমাদের বর্তমান অক্ষাংশ এবং দ্রাঘিমা পাপ্ত হওয়া প্রয়োজন</string>
+    <string name="warning">সতর্কতা!</string>
+    <string name="camera_permission">যেহেতু আমাদের প্রমাণ নেওয়ার প্রয়োজন তাই ক্যামেরা এবং স্টোরেজের অনুমতি প্রয়োজন</string>
+    <string name="info">তথ্য</string>
+    <string name="sure">আপনি কি নিশ্চিত</string>
+    <string name="undeliver_Reason">অনুগ্রহ করে একটি বৈধ কারণ নর্বাচন করুন</string>
+    <string name="location_permission">অবস্থানের অনুমতি</string>
+    <string name="location_per_deni">অবস্থানের অনুমতি অস্বীকার করা হয়েছে:</string>
+    <string name="Location_warning">অবস্থান পরিষেবা সতর্কতা</string>
+    <string name="Location_enabled">এই মুহুর্তে অবস্থান পাওয়া যাচ্ছে না, নিশ্চিত করুন যে ডিভাইসে অবস্থান সক্ষম করা আছে</string>
+    <string name="undeli_title">ডেলিভারি না হওয়া</string>
+    <string name="undeli_success_msg">ডেলিভার না হওয়া জিনিস সফলভাবে আপলোড করা হয়েছে</string>
+    <string name="undeli_notsuccess_msg">ডেলিভার না হওয়া জিনিস সফলভাবে আপলোড করা হয়নি</string>
+    <string name="Location_warning_error">এই মুহুর্তে অবস্থান পাওয়া যাচ্ছে না,অনুগ্রহ করে পরে পুনরায় চেষ্টা করুন</string>
+    <string name="Location_not_up">অবস্থান আপডেট হয়নি</string>
+    <string name="enter_qty">অনুগ্রহ করে পরিমাণ প্রদান করুন</string>
+    <string name="enter_qty_error">আপনি পণ্যর পরিমাণ পরিবর্তন করেননি,তাহলে অনুগ্রহ করে আপনি কি ডেলিভারির দিকে এগিয়ে যেতে চান</string>
+    <string name="enter_qtyno_error">আপনি 0 পরিমাণ প্রদান করেছেন,  তাহলে অনুগ্রহ করে আপনি কি এটি ডেলিভারি না হওয়া হিসাবে প্রক্রিয়া করতে চান</string>
+    <!--Main Activity-->
+    <string name="change_language">Change Language</string>
+    <string name="unit_price"> ইউনিট প্রাইস : </string>
+    <string name="partial_quantity"> কোয়ান্টিটি :</string>
+    <string name="partial_del_qty">ডেলিভারি কোয়ান্টিট :</string>
+    <string name="partial_total_amt"> টোটাল অ্যামাউণ্ট :</string>
+
+    <string name="view_details">ভিউ ডিটেল্স </string>
+    <string name="hide_details">হাইড ডিটেল্স</string>
+    <string name="ord_product_code"> প্রোডাক্ট কো : </string>
+    <string name="delivery_success_msg">শিপমেন্ট ডেলিভারড সাক্সেসফুল  </string>
+    <string name="select_phone_no"> Select a Phone Number </string>
+    <string name="select_location"> Select Location </string>
+    <string name="main_logout_alert_sync"> Cannot Logout Offline Orders Not Synced </string>
+    <string name="dl_back_pressed"> Back Pressed </string>
+    <string name="main_choose_lang"> Choose Language </string>
+
+
+   <!-- <string name="sign_received_condition"> Received goods in good condition </string>-->
+    <string name="pickup_complete">PickupComplete</string>
+   <!-- <string name="sign_received_condition"> Received goods in good condition </string>-->
+    <string name="sign_received_condition"> রিসিভ্ড গুডস ইন গুড কণ্ডিশন </string>
+    <string name="ord_title_pending"> Pending </string>
+    <string name="ord_title_success"> Success </string>
+    <string name="ord_title_failed"> Failed </string>
+    <string name="delivered_date_new">  বিতরণ তারিখ </string>
+    <string name="select_reason_def"> সিলেক্ট রীজন </string>
+    <string name="shipment_already_delivered"> 	শিপমেন্ট অলরেডী ডেলিভারড  </string>
+    <string name="relation">Relation Proof</string>
+    <string name="relationproof">Relation Proof</string>
+    <string name="check_all">Check All</string>
+    <string name="press_otp_match">Please press to getotp</string>
+    <string name="no_order">There is no orders in the list so can\'t able to proceed now</string>
+    <string name="oust_train">Training</string>
+</resources>

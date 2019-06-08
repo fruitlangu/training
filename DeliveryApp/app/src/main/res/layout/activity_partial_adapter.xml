@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_pro_name"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Toshiba Tv"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:id="@+id/pa_product_name"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+               <!-- android:gravity="center|left"-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <!--android:id="@+id/lay_pro_code"-->
+                <TextView
+                    android:id="@+id/pa_product_code"
+                    android:layout_width="wrap_content"
+                    android:text="10234"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:gravity="center"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+                <!--android:id="@+id/pa_product_code"-->
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <!--android:layout_height="wrap_content"-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/unit_price"
+                            android:textStyle="bold"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:id="@+id/pa_product_amt"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ord_view_height"
+                android:background="@color/main_bg"/>-->
+
+
+
+
+
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_pro_code"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+            &lt;!&ndash;    <TextView
+                    android:layout_width="wrap_content"
+                    android:text="10234"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:id="@+id/pa_product_code"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />&ndash;&gt;
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Unit Amt:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:id="@+id/pa_product_amt"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/partial_quantity"
+                            android:textStyle="bold"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:id="@+id/pa_product_qty"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_qty"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Quantity:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:id="@+id/pa_product_qty"
+                    android:layout_height="wrap_content" />
+
+
+               &lt;!&ndash; <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_ent_qty"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_width="10dp"
+                    android:layout_weight=".1"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    android:textSize="@dimen/par_txt_size"
+                    android:textColor="@color/textblack"
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/edittext_border"
+                    android:id="@+id/pa_etr_qty"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:text="*"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/faild"
+                    android:layout_height="wrap_content" />&ndash;&gt;
+
+
+            </LinearLayout>-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/partial_del_qty"
+                            android:textStyle="bold"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:orientation="horizontal"
+                        android:layout_weight=".1" >
+
+<LinearLayout
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/ord_padding_left">
+                        <EditText
+                            android:layout_width="10dp"
+                            android:layout_weight=".1"
+                            android:textStyle="bold"
+                            android:inputType="number"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"
+                            android:background="@drawable/edittext_border"
+                            android:id="@+id/pa_etr_qty"
+
+                            android:layout_height="wrap_content" />
+                        <!--android:paddingLeft="5dp"
+                        -->
+</LinearLayout>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:text="*"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:layout_gravity="center"
+                            android:textColor="@color/faild"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Delivery Qty:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+
+                &lt;!&ndash;<TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_ent_qty"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />&ndash;&gt;
+                <EditText
+                    android:layout_width="30dp"
+                    android:layout_weight=".1"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:background="@drawable/edittext_border"
+                    android:id="@+id/pa_etr_qty"
+                    android:layout_height="wrap_content" />
+                &lt;!&ndash;android:paddingLeft="5dp"
+                &ndash;&gt;
+                <TextView
+                    android:layout_width="10dp"
+                    android:text="*"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/faild"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/partial_total_amt"
+                            android:textStyle="bold"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:id="@+id/pa_total"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay_amount_colleted"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Total Amt:"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />
+
+         &lt;!&ndash;       <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_amt_colleted"
+                    android:id="@+id/pa_cal"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight="0.1"
+                    android:layout_height="wrap_content" />&ndash;&gt;
+
+                &lt;!&ndash;<TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/par_total"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content" />&ndash;&gt;
+
+               &lt;!&ndash; <TextView
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".4"
+                    android:id="@+id/pa_total"
+                    android:layout_height="wrap_content" />&ndash;&gt;
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/ord_txt_size"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textblack"
+                    android:layout_weight=".1"
+                    android:id="@+id/pa_total"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_select_reason">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Select Reason"
+                            android:textStyle="bold"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:layout_weight=".1" >
+
+                        <Spinner
+                            android:id="@+id/sp_select_reason"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textStyle="bold"
+                            android:paddingLeft="@dimen/ord_padding_left"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/ord_txt_size"
+                            android:textColor="@color/textblack"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+

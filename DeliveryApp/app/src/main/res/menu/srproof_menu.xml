@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.boon.inthree.Adapters.CartAdapterqty">
+
+    <item
+        android:id="@+id/menu_self"
+        android:title="Self"/>
+
+    <item
+        android:id="@+id/menu_other"
+        android:title="Other"/>
+
+</menu>

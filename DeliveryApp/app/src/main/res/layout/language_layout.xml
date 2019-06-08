@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/alert_layout_corner"
+              android:minWidth="@dimen/dialog_size"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_txt_size"
+        android:padding="@dimen/pen_margin_left_name"
+        android:textColor="@color/red"
+        android:textSize="@dimen/deliver_size"/>
+    <!--android:text="@string/fill_field"-->
+   <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_reason"
+
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:prompt="@string/change_language"/>
+  <!--  android:entries="@string/change_language"-->
+   <!-- android:entries="@array/reason_spinner"-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="@dimen/btn_txt_size"
+        android:layout_marginTop="@dimen/btn_txt_size"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:padding="@dimen/pro_margin_left">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alert_margin"
+            android:layout_marginStart="@dimen/alert_margin"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:background="@drawable/btn_round_corner"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="@string/back"
+            android:textColor="@color/dark_white"
+            android:textSize="@dimen/deliver_alert_size"/>
+        <!--android:background="@drawable/btn_round_corner"-->
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/alert_margin"
+            android:layout_marginRight="@dimen/alert_margin"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:background="@drawable/btn_right_round_corner"
+            android:padding="5dp"
+
+            android:text="@string/submit"
+            android:textColor="@color/dark_white"
+            android:textSize="@dimen/deliver_alert_size"/>
+        <!--android:enabled="false"
+        android:alpha="0.4"-->
+
+
+    </LinearLayout>
+</LinearLayout>

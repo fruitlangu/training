@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#000">
+
+        <LinearLayout
+            android:id="@+id/picture_content_parent_view_host"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/full_camera_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" >
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/fl_imagepreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" >
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <!--   <LinearLayout
+              android:id="@+id/fl_imagepreview"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:visibility="gone" >
+           </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/side_menu_layout"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_height="10dp"
+            android:layout_width="match_parent"/>
+
+        <ImageView
+            android:id="@+id/button_flip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/camera_flip"
+            android:layout_gravity="center"
+            />
+      <!--  android:text="flip"-->
+
+        <!--<Button
+            android:id="@+id/button_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flash on"
+            android:layout_marginRight="5dp"/>-->
+
+        <View
+            android:layout_height="15dp"
+            android:layout_width="match_parent"/>
+
+        <ImageView
+            android:id="@+id/iv_cam_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flash"
+
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <!--  <Button
+          android:id="@+id/button_done"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Done"
+          />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/retake_image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#999999"
+                android:enabled="false"
+                android:text="Retake"/>
+            <Button
+                android:id="@+id/button_capture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#999999"
+                android:text="capture" />
+
+        </FrameLayout>
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="5dp"/>
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#999999"
+            android:text="Done" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

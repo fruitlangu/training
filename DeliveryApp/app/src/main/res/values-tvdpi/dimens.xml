@@ -1,0 +1,211 @@
+<!--
+  ~ @category Learning Space
+  ~ @copyright Copyright (C) 2017 Contus. All rights reserved.
+  ~ @license http://www.apache.org/licenses/LICENSE-2.0
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    
+    <!---  TAB LAYOUT 6.0 Mobile (Eg. Rajesh Mobile )   -->
+
+    <dimen name="login_page_size">100dp</dimen>
+    <dimen name="logo_image">180dp</dimen>
+    <dimen name="login_page_left">10dp</dimen>
+    <dimen name="login_page_right">10dp</dimen>
+    <dimen name="login_btn_margin_top">10dp</dimen>
+    <dimen name="qr_btn_margin_top">10dp</dimen>
+    <dimen name="btn_txt_size">22dp</dimen>
+    <dimen name="logo_margin_top">20dp</dimen>
+    <dimen name="txt_size">22sp</dimen>
+
+
+    <dimen name="login_page">50dp</dimen>
+    <dimen name="login_edit">300dp</dimen>
+    <dimen name="padding">5dp</dimen>
+
+    <!-- EDIT TEXT LEF ICON -->
+
+    <dimen name="radius">6dp</dimen>
+    <dimen name="width">1dp</dimen>
+
+    <!-- EDIT TEXT LEF ICON -->
+
+
+    <!-- Main Page -->
+
+    <dimen name="main_width">285dp</dimen>
+    <dimen name="main_height">285dp</dimen>
+    <dimen name="image_width">160dp</dimen>
+    <dimen name="image_height">160dp</dimen>
+    <dimen name="txt_main_size">22dp</dimen>
+    <dimen name="view_width">8dp</dimen>
+    <dimen name="view_height">150dp</dimen>
+    <dimen name="txt_margin_top">15dp</dimen>
+    <dimen name="lay_padding">5dp</dimen>
+    <dimen name="lay_padding_left">8dp</dimen>
+    <dimen name="lay_padding_right">8dp</dimen>
+    <dimen name="margin_left">3dp</dimen>
+    <dimen name="dash_image_width">120dp</dimen>
+    <dimen name="dash_image_height">120dp</dimen>
+    <dimen name="del_margin_top">10dp</dimen>
+    <dimen name="del_margin_bottom">20dp</dimen>
+
+    <dimen name="dash_sync_lay_width">160dp</dimen>
+    <dimen name="dash_sync_lay_hight">150dp</dimen>
+    <dimen name="dash_image_sync_width">50dp</dimen>
+    <dimen name="dash_image_sync_hight">50dp</dimen>
+    <dimen name="dash_margin_top">5dp</dimen>
+    <dimen name="dash_margin_left">3dp</dimen>
+    <dimen name="sum_text_size">20sp</dimen>
+    <dimen name="sum_list_size">22sp</dimen>
+    <dimen name="dahs_height">270dp</dimen>
+    <dimen name="deliver_padding_size">23dp</dimen>
+    <dimen name="deliver_padding">25dp</dimen>
+    <dimen name="del_padding_right">8dp</dimen>
+
+
+    <!-- End Main Page -->
+
+    <!-- search bar -->
+    <dimen name="search_txt_size">18dp</dimen>
+    <dimen name="search_bar_hight">55dp</dimen>
+    <dimen name="search_padding">10dp</dimen>
+    <!-- end search bar -->
+
+
+
+    <!-- Fragement Pending Acivity  -->
+
+
+    <dimen name="cri_image_width">140dp</dimen>
+    <dimen name="cri_image_hight">140dp</dimen>
+    <dimen name="pen_txt_size">20dp</dimen>
+    <dimen name="pen_pading_left">5dp</dimen>
+    <dimen name="pen_margintop">12dp</dimen>
+    <dimen name="pen_margin_left_order">80dp</dimen>
+    <dimen name="pen_margin_left_ship">45dp</dimen>
+    <dimen name="pen_margin_left_name">18dp</dimen>
+    <dimen name="cir_lef">8dp</dimen>
+    <!-- Profile Activity-->
+
+    <dimen name="pro_image_width">60dp</dimen>
+    <dimen name="pro_image_hieght">60dp</dimen>
+    <dimen name="pro_main_padding">6dp</dimen>
+    <dimen name="pro_padding">12dp</dimen>
+    <dimen name="pro_padding_name">6dp</dimen>
+    <dimen name="pro_margin_left">12dp</dimen>
+    <dimen name="pro_txt_size">22dp</dimen>
+    <dimen name="pro_margin_top">6dp</dimen>
+    <dimen name="pro_re_btn_hieght">100dp</dimen>
+    <dimen name="deliver_size">20sp</dimen>
+    <dimen name="deliver_alert_size">16sp</dimen>
+    <dimen name="alert_margin">30dp</dimen>
+    <dimen name="dialog_size">550dp</dimen>
+    <dimen name="del_alert_hieght">600dp</dimen>
+    <!-- End Profile Activity-->
+
+    <!-- reset password -->
+    <dimen name="re_padding">18dp</dimen>
+    <dimen name="re_edit_pass">18dp</dimen>
+    <!-- End reset password -->
+
+
+    <!-- order details View -->
+    <dimen name="ord_padding">8dp</dimen>
+    <dimen name="ord_padding_bottom">2dp</dimen>
+    <dimen name="ord_txt_size">22dp</dimen>
+    <dimen name="ord_view_height">3dp</dimen>
+    <dimen name="ord_padding_left">12dp</dimen>
+    <dimen name="ord_call_image_width">100dp</dimen>
+    <dimen name="ord_call_image_height">60dp</dimen>
+    <dimen name="ord_call_image_heigh">40dp</dimen>
+    <dimen name="ord_title_margin">8dp</dimen>
+    <dimen name="ord_pad_bottom">10dp</dimen>
+    <dimen name="par_txt_size">18dp</dimen>
+    <dimen name="ord_un_de_hegiht">60dp</dimen>
+    <dimen name="del_lay">180dp</dimen>
+    <!-- End order details View -->
+
+    <dimen name="activity_sign_horizontal_margin">16dp</dimen>
+    <dimen name="activity_sign_vertical_margin">16dp</dimen>
+    <dimen name="border_width">3dp</dimen>
+    <dimen name="border_padding">5dp</dimen>
+    <dimen name="textview_padding">15dip</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="image_sign_width">150dp</dimen>
+    <dimen name="image_sign_height">80dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="weight_width">0dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+
+    <!-- Summary fragment -->
+    <dimen name="sum_pad_left">10dp</dimen>
+    <dimen name="sum_pad_right">10dp</dimen>
+    <dimen name="sum_chat_wight">160dp</dimen>
+    <!-- end Summary fragment -->
+
+    <!--maps activity-->
+    <dimen name="map_x_size">10dp</dimen>
+    <dimen name="search_height">30dp</dimen>
+    <dimen name="search_text_size">12dp</dimen>
+    <dimen name="search_close_size">5dp</dimen>
+    <dimen name="map_btn_height">78dp</dimen>
+    <dimen name="map_btn_weight">35dp</dimen>
+    <dimen name="map_marign_top">12dp</dimen>
+    <dimen name="map_btn_left">30dp</dimen>
+    <dimen name="map_btn_size">10sp</dimen>
+    <dimen name="map_btn_padding">5sp</dimen>
+    <dimen name="map_img1_margintop">15dp</dimen>
+    <dimen name="map_txt_width">170dp</dimen>
+    <dimen name="map_txt_height">40dp</dimen>
+    <dimen name="map_txt_martop">5dp</dimen>
+    <dimen name="map_txt_padleft">5dp</dimen>
+    <dimen name="map_txt_padright">5dp</dimen>
+    <dimen name="map_txt_marright">5dp</dimen>
+    <dimen name="map_img2_width">30dp</dimen>
+    <dimen name="map_img2_height">30dp</dimen>
+    <dimen name="map_img2_left">30dp</dimen>
+    <dimen name="map_img2_right">-10dp</dimen>
+    <dimen name="map_img2_top">-3dp</dimen>
+    <dimen name="map_img3_top">5dp</dimen>
+    <dimen name="map_img3_right">15dp</dimen>
+    <dimen name="map_root_layout">60dp</dimen>
+
+
+
+    <!-- Login Actvity-->
+    <dimen name="lo_margin_top">350dp</dimen>
+    <dimen name="lo_margin_left">20dp</dimen>
+    <dimen name="lo_margin_right">20dp</dimen>
+    <dimen name="lo_padding">20dp</dimen>
+    <dimen name="lo_txt_mar_top">5dp</dimen>
+    <dimen name="lo_dra_padding">20dp</dimen>
+    <dimen name="lo_img_mar_top">25dp</dimen>
+    <dimen name="lo_img_mar_bottom">5dp</dimen>
+    <dimen name="lo_img_padding">5dp</dimen>
+    <dimen name="lo_img_height">140dp</dimen>
+    <dimen name="adhar_height">180dp</dimen>
+    <dimen name="progress_size">100dp</dimen>
+    <dimen name="linear_height">280dp</dimen>
+
+    <dimen name="lo_po_top">5dp</dimen>
+    <dimen name="lo_po_pad">5dp</dimen>
+    <dimen name="lo_po_hei">50dp</dimen>
+    <dimen name="lo_po_tex">18dp</dimen>
+    <dimen name="lo_po_mer_left">280dp</dimen>
+    <dimen name="lo_im_lef">5dp</dimen>
+    <dimen name="lo_po_mar_right">1dp</dimen>
+    <dimen name="sig_btm_sze">250dp</dimen>
+    <dimen name="feed_mar_left">15dp</dimen>
+    <dimen name="feed_mar_top">10dp</dimen>
+    <dimen name="feed_mar_bot">10dp</dimen>
+    <dimen name="feed_mar_right">30dp</dimen>
+    <dimen name="feed_height">30dp</dimen>
+    <dimen name="pa_width">230dp</dimen>
+    <dimen name="del_ser_lay">125dp</dimen>
+    <dimen name="mar_top">15dp</dimen>
+
+    <!-- End Login Actvity-->
+
+</resources>

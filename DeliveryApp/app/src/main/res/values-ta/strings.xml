@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">Lastmile</string>
+    <string name="share_via">வழியாக பகிரலாம்</string>
+    <string name="read_less">குறைவாகப் படிக்கவும்	</string>
+    <string name="read_more">....மேலும் படிக்கவும்</string>
+    <string name="simple_date_format">வருடம்-மாதம்-தேதி நேரம்:நிமிடம்:நொடி</string>
+    <string name="seconds_ago">வினாடிகளுக்கு முன்பு</string>
+    <string name="minutes_ago">நிமிடங்களுக்கு முன்பு</string>
+    <string name="hours_ago">மணி நேரத்திற்கு முன்பு</string>
+    <string name="days_ago">நாட்களுக்கு முன்பு</string>
+    <!-- Error messages-->
+    <string name="check_internet">இன்டர்நெட் உடன் இணைக்க முடியவில்லை. தயவுசெய்து உங்கள் இன்டர்நெட்-ஐ சரிப்பார்த்து மீண்டும் முயற்சிக்கவும் </string>
+    <string name="error_passing_data">அனுப்பும் தரவில் பிழை.</string>
+
+
+
+   
+    <string name="action_settings">செட்டிங்க்ஸ்</string>
+    <!-- Login Page -->
+    <string name="txt_user_name">பயனர்பெயர்</string>
+    <string name="txt_password">கடவுச்சொல்</string>
+    <string name="hint_user_name">பயனர்பெயர்</string>
+    <string name="hint_password">கடவுச்சொல்</string>
+    <string name="btn_login">லாகின்</string>
+    <string name="btn_bar_code">ஸ்கேனர்</string>
+    <string name="rem_me">என்னை நினைவில் கொள்ளுங்கள்</string>
+    <!-- End Login Page --><!--  Main Page -->
+    <string name="start">தொடங்கவும்</string>
+    <string name="blukstart">மொத்தமாக தொடங்கவும்</string>
+    <string name="sync">கடைசி ஒத்திசைவு</string>
+    <string name="summery">சுருக்கம்</string>
+    <string name="profile">ப்ரோஃபைல்</string>
+    <string name="backup">பேக்-அப்</string>
+    <string name="logout">லாக் அவுட்</string>
+    <string name="switch_user">பயனரை மாற்றவும்</string>
+
+    <string name="start_alert">டெலிவரிக்காக எந்த ஷிப்மென்டும் கிடைக்கப்படவில்லை</string>
+    <string name="nointernet">இன்டர்நெட் இணைப்பு இல்லை, தயவுசெய்து இன்டர்நெட்-ஐ இணைக்கவும்...</string>
+    <string name="noordersum">டெலிவரி ஆர்டர் சுருக்கம் இல்லை</string>
+    <string name="under">கட்டுமானத்தில் உள்ளது</string>
+    <!-- end main page -->
+    <!-- alert box-->
+    <string name="select_retailer">விற்பனையாளரை தேர்ந்தெடுக்கவும்</string>
+    <string name="retailer_name">விற்பனையாளர் பெயரை உள்ளிடவும்</string>
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    <string name="showlogout">நிச்சயமாக நீங்கள் லாக் அவுட் செய்ய விரும்புகிறீர்களா?</string>
+    <string name="showSwitch">நிச்சயமாக நீங்கள் பயனரை மாற்ற விரும்புகிறீர்களா?</string>
+    <string name="showexit">நிச்சயமாக நீங்கள் வெளியேற விரும்புகிறீர்களா?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ஹலோ பிளாங் ஃபிராக்மென்ட்</string>
+    <!-- end alert box -->
+    <!--  delivery Page -->
+    <string name="name">பெயர்</string>
+    <string name="amountcolled">தொகை சேகரிக்கப்பட்டது</string>
+    <string name="phnumber">தொலைபேசி எண்</string>
+    <string name="pincode">பின்கோடு</string>
+    <string name="custdevelivery">கஸ்டமர் டெலிவரி</string>
+    <string name="delivery_proof">விநியோக ஆதாரம்</string>
+    <string name="invoice">இன்வாய்ஸ்</string>
+    <string name="invoice_proof">விலைப்பட்டியல் ஆதாரம்</string>
+    <string name="addressprof">முகவரி ஆதாரம்</string>
+    <string name="sign">கையொப்பம்</string>
+    <string name="maxqty">இந்த ஷிப்மென்ட்-இல் ஒரே ஒரு அளவு மட்டுமே உங்களுக்கு உள்ளது! பகுதி விநியோகம் அனுமதிக்கப்படவில்லை!.</string>
+    <!-- end delivery page --><!-- un delivery Page -->
+    <string name="reason">காரணம்</string>
+    <string name="image">படம்</string>
+    <string name="undelivered_proof">விநியோகிக்கப் படாத ஆதாரம்</string>
+    <string name="remark">கருத்துக்கள்</string>
+    <string name="delivery_summary">விநியோக சுருக்கம்</string>
+    <string name="txt_pending">நிலுவையில் உள்ளது</string>
+    <string name="successful">வெற்றியடைந்தது</string>
+    <string name="failed">தோல்வியடைந்தது</string>
+    <string name="success">வெற்றி</string>
+    <string name="dash_order">மொத்த ஆர்டர்கள்</string>
+    <string name="complete">முடிந்தது</string>
+    <!-- end un delivery page -->
+    <!--  Menu Activity -->
+    <string name="pending">நிலுவையில் உள்ளது</string>
+    <string name="sucess">வெற்றி</string>
+    <string name="faild">தோல்வியடைந்தது</string>
+    <!-- End Menu Activity-->
+    <!--  Fragement adapter menu Activity -->
+    <string name="orderno">ஆர்டர் எண்</string>
+    <string name="shipmentno">ஷிப்மென்ட் எண்</string>
+    <string name="cusname">வாடிக்கையாளர் பெயர்</string>
+    <string name="search_edit">தேடவும்</string>
+    <!-- End Fragement adapter menu Activity-->
+    <!-- Profile Activity-->
+    <string name="repass">கடவுச்சொல்லை ரீசெட் செய்யவும்</string>
+    <string name="txt_name">பெயர்</string>
+    <string name="txt_contact">தொடர்பு எண்</string>
+    <string name="txt_email">இ-மெயில்</string>
+    <string name="fill_field">தயவுசெய்து புலங்களை நிரப்பவும் *</string>
+    <string name="submit">சமர்ப்பிக்கவும்</string>
+    <string name="back">பின் செல்லவும்</string>
+    <string name="prompt">ஒரு காரணத்தை தேர்ந்தெடுக்கவும்</string>
+    <!--End  Profile Activity--><!-- Reset password -->
+    <string name="curpassword">தற்போதைய கடவுச்சொல்</string>
+    <string name="newpass">புதிய கடவுச்சொல்</string>
+    <string name="confpass">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <!-- Order Deteils Page -->
+    <string name="ord_title">நிலுவையில் உள்ளது</string>
+    <string name="ord_number">ஆர்டர் எண்</string>
+    <string name="ord_cus_number">வாடிக்கையாளர் எண்</string>
+    <string name="ord_cus_name">வாடிக்கையாளர் பெயர்</string>
+
+    <string name="ord_del_date">வழங்கப்படும்</string>
+    <string name="ord_ship_add">ஷிப்பிங் முகவரி</string>
+    <string name="ord_add">முகவரி</string>
+    <string name="ord_ship_city">ஷிப்பிங் நகரம்</string>
+    <string name="ord_city">நகரம்</string>
+    <string name="ord_ship_pincode">ஷிப்பிங் பின்கோடு</string>
+    <string name="ord_ship_invoice">இன்வாய்ஸ் எண்</string>
+    <string name="ord_ship_number">ஷிப்மென்ட் எண்</string>
+    <string name="ord_ship_invoic_amt">தொகை</string>
+    <string name="ord_ship_amt_coll">தொகை சேகரிக்கப்பட்டது</string>
+    <string name="ord_ship_paymode">செலுத்துதல் முறை</string>
+    <string name="ord_ship_itemcode">தயாரிப்பு குறியீடு</string>
+    <string name="ord_ship_branchname">கிளைன்ட்-இன் கிளை பெயர்</string>
+    <string name="ord_ship_branchadd">கிளை முகவரி</string>
+    <string name="ord_ship_branch_pin">கிளை பின்கோடு</string>
+    <string name="ord_ship_att_count">அட்டெம்ப்ட் கௌண்ட்</string>
+
+    <string name="ord_delivery">டெலிவரி</string>
+    <string name="ord_par_delivery">பகுதி விநியோகம்</string>
+    <string name="ord_un_delivery">அன்டெலிவரி</string>
+    <!--Deliver details strings-->
+    <string name="pername">பெயரை உள்ளிடவும்</string>
+    <string name="amount">தொகை</string>
+    <string name="valid_amount">தொகையை உள்ளிடவும்</string>
+    <string name="valid_phone_number">சரியான தொலைபேசி எண்ணை உள்ளிடவும்</string>
+    <string name="error_phone">தொலைபேசி எண்ணை உள்ளிடவும்</string>
+    <string name="error_ship_address">ஷிப்மென்ட் முகவரியை உள்ளிடவும்</string>
+    <string name="error_pincode">பின்கோடு-ஐ உள்ளிடவும்</string>
+    <string name="valid_pincode">சரியான பின்கோடு-ஐ உள்ளிடவும்</string>
+    <string name="getwarning">நிச்சயமாக விவரங்களை பெற நீங்கள் விரும்புகிறீர்களா?</string>
+    <string name="back_pressed">நிச்சயமாக நீங்கள் பின் செல்ல விரும்புகிறீர்களா?</string>
+    <!--Signature activity-->
+    <string name="sign_here_title">இங்கே கையெழுத்திடவும்</string>
+    <string name="hint_cancel">கேன்சல் செய்யவும்</string>
+    <string name="hint_clear">கிளியர் செய்யவும்</string>
+    <string name="hint_save">சேவ் செய்யவும்</string>
+    <string name="unDelReason">கருத்துக்களை உள்ளிடவும்</string>
+
+    <string name="country_prompt">ஒரு நாட்டை தேர்ந்தெடுக்கவும்</string>
+    <string name="landmark">லேண்ட்மார்க்</string>
+    <string name="address">முகவரி</string>
+    <string name="Redirect">திசைதிருப்பவும்</string>
+    <string name="valid_add">முகவரியை உள்ளிடவும்</string>
+
+
+    <string name="ok">சரி</string>
+    <string name="add_location_text">விண்ணப்பிக்கவும்</string>
+    <string name="direction">திசை</string>
+    <string name="get_location">இருப்பிடம் பெறப்படுகிறது</string>
+    <string name="gps_signal">சாட்டிலைட் சிக்னல் பலவீனமாக உள்ளதால் தற்போதைய இருப்பிடத்தை பெற முடியவில்லை</string>
+    <string name="valid_user_name">பயனர் பெயரை உள்ளிடவும்</string>
+    <string name="valid_pass">கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="wrong_user">\&quot;தவறான பயனர் !! ஆன்லைனில் சரிபார்க்க வேண்டுமா?</string>
+    <string name="invalid_login">தவறான லாகின்</string>
+    <!--    <string-array name="country_arrays">
+            <item>மலேசியா</item>
+	<item>அமெரிக்கா</item>
+	<item>இந்தோனேசியா</item>
+
+        </string-array>--><!-- Product Show -->
+        <string name="product_code">தயாரிப்பு குறியீடு</string>
+    <string name="product_name">தயாரிப்பு பெயர் </string>
+    <string name="product_qty">அளவு</string>
+    <string name="product_amt">தொகை</string>
+    <!-- partial delivery-->
+    <string name="prat_title">பகுதி விநியோகம்</string>
+    <string name="par_ent_qty">விநியோக அளவு:</string>
+    <string name="par_amt_colleted">சேகரிக்கப்பட்ட தொகை:</string>
+    <string name="par_total">மொத்தம்</string>
+    <string name="entervalid">தயவுசெய்து சரியான அளவை உள்ளிடவும்</string>
+    <string name="adhaar">ஆதார்</string>
+    <string name="undeliver_res">விநியோகிக்கப் படாத வெற்றி</string>
+    <string name="upload_failed">ஏற்கனவே டெலிவரி வெற்றிக்கரமாக பதிவேற்றப்பட்டது. அதனால் பதிவேற்றம் தோல்வியடைந்தது.</string>
+    <string name="delivery_offline">ஷிப்மென்ட் ஆஃப்லைனில் சேமிக்கப்பட்டது</string>
+    <string name="delivery_qty">விநியோக அளவு</string>
+
+    <string-array name="reason_spinner">
+        <item>காரணத்தை தேர்ந்தெடுக்கவும்</item>
+    </string-array>
+
+    <string name="update_app"><u>அப்டேட் கிடைக்கிறது</u>.</string>
+    <!--Tracking the vehicle system via gps-->
+    <string name="title_activity_main">டிரான்ஸ்போர்ட் டிராக்கர்</string>
+    <string name="start_tracking">டிராக் செய்ய தொடங்கவும்</string>
+    <string name="stop_tracking">டிராக் செய்வதை நிறுத்தவும்</string>
+    <string name="enter_transport_id">டிரான்ஸ்போர்ட் ஐ.டி-ஐ உள்ளிடவும்</string>
+    <string name="enter_email">இ-மெயில்-ஐ உள்ளிடவும்</string>
+    <string name="enter_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="location_permissions_required">இருப்பிடத்தை டிராக் செய்வதற்காக இருப்பிட அனுமதிகள் தேவை. தயவுசெய்து இந்த அனுமதிகளை வழங்கி தொடரவும்.</string>
+    <string name="missing_inputs">தயவுசெய்து ஒரு டிரான்ஸ்போர்ட் ஐ.டி, இ-மெயில் மற்றும் கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="tracking">டிராக்கிங்✓</string>
+    <string name="not_tracking">டிராக்கிங் இல்லை ✘</string>
+    <string name="connecting">இணைக்கப்படுகிறது ...</string>
+    <string name="status">ஸ்டேட்டஸ்</string>
+    <string name="location_permission_required">இருப்பிட அனுமதி தேவைப்படுகிறது.</string>
+    <string name="gps_required">ஜி.பி.எஸ் செயல்பாட்டில் இல்லை.</string>
+    <string name="enable">செயல்படுத்தவும்</string>
+    <string name="auth_failed">ஃபையர்பேஸ் அங்கீகாரம் தோல்வியடைந்தது</string>
+    <string name="confirm_stop">இருப்பிடம் டிராக்கிங் செய்யப்படுவதை உண்மையாகவே நீங்கள் முடக்க விரும்புகிறீர்களா?</string>
+
+    <string name="firebase_path" translatable="false">raw-locations/</string>
+    <string name="prefs" translatable="false">prefs</string>
+    <string name="transport_id" translatable="false">transport_id</string>
+    <string name="email" translatable="false">email</string>
+    <string name="password" translatable="false">password</string>
+    <!--Check whether device date has been changed or not-->
+    <string name="tt_time_gmt">சரியான நேரம்: %1$எஸ் [ஜி.எம்.டி]</string>
+    <string name="tt_time_pst">சரியான நேரம்: %1$எஸ் [பி.எஸ்.டி]</string>
+    <string name="tt_time_device">டிவைஸ் நேரம்: %1$எஸ் [பி.எஸ்.டி]</string>
+    <string name="exactdate">எச்சரிக்கை தேதி</string>
+    <string name="get_date_warn">உங்கள் மொபைல் தேதி நேரம் துல்லியமாக இல்லை, உங்கள் கடிகாரத்தை சரி செய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="accept">ஏற்கவும்</string>
+    <string name="backupalert">மன்னிக்கவும், தற்போது பேக்-அப் எடுக்க உங்களால் அணுக முடியாது, தயவுசெய்து நிர்வாகியை தொடர்பு கொள்ளவும்</string>
+    <string name="back_internet">தயவுசெய்து உங்கள் இன்டர்நெட் இணைப்பை ஸ்விட்ச் ஆன் செய்யவும்</string>
+    <string name="feed_back">பின்னூட்டம்</string>
+    <string name="opt">ஓ.டி.பி</string>
+    <string name="urn">யூ.ஆர்.என்</string>
+    <string name="error_otp">ஓ.டி.பி-ஐ உள்ளிடவும்</string>
+    <!--<string name="error_urn">ஓ.டி.பி-ஐ உள்ளிடவும்</string>-->
+    <string name="error_urn">Enter the URN</string>
+    <!--Splash activity-->
+    <string name="force_update">அப்டேட் கிடைக்கிறது</string>
+    <string name="force_update_name">லாஸ்ட்மைல் ஆப்-இன் ஒரு புதிய பதிப்பு பதிவிறக்கத்துக்காக கிடைக்கிறது</string>
+    <string name="force_update_confirm">அப்டேட் செய்யவும்</string>
+    <string name="force_update_ok">இல்லை, நன்றி</string>
+    <string name="back_up">பேக்-அப் முழுமையடைந்தது</string>
+    <string name="backup_suc">பேக்-அப் வெற்றியடைந்தது</string>
+    <string name="zipfile">ஷிப்ஃபைல் தோல்வியடைந்தது</string>
+    <string name="backup_server">பேக்-அப் சேவ் செய்யப்பட்டது ஆனால் சர்வருக்கு அனுப்பப்படவில்லை </string>
+    <string name="back_up_title">பேக்-அப்</string>
+    <string name="cash_colle">பணம் சேகரிக்கப்பட்டது செக்பாக்ஸ் செக் செய்யப்படவில்லை</string>
+    <string name="device_not_supp">இந்த டிவைஸ்-ஐ ஆதரிக்கவில்லை.</string>
+    <string name="permission">இருப்பிட அனுமதிகள் தேவை, ஏனெனில் தற்போதைய இருப்பிடத்துக்கான தற்போதைய அட்ச ரேகை மற்றும் தீர்க்க ரேகையை பெற வேண்டியது எங்களுக்கு அவசியமாகிறது</string>
+    <string name="warning">எச்சரிக்கை!</string>
+    <string name="camera_permission">ஆதாரத்தை எடுக்க தேவையான கேமரா மற்றும் ஸ்டோரேஜ் அனுமதிகள் எங்களுக்கு தேவைப்படுகிறது</string>
+    <string name="info">தகவல்</string>
+    <string name="sure">நீங்கள் உறுதியாக உள்ளீர்களா</string>
+    <string name="undeliver_Reason">தயவுசெய்து ஒரு சரியான காரணத்தை தேர்ந்தெடுக்கவும் </string>
+    <string name="location_permission">இருப்பிட அனுமதி</string>
+    <string name="location_per_deni">இருப்பிட அனுமதி மறுக்கப்பட்டது:</string>
+    <string name="Location_warning">இருப்பிட சேவை எச்சரிக்கை</string>
+    <string name="Location_enabled">இந்த தருணத்தில் இருப்பிடத்தை பெற இயலாது, டிவைஸ்-இல் இருப்பிடம் செயல்படுத்தப்பட்டுள்ளதா என்பதை உறுதி செய்யவும்</string>
+    <string name="undeli_title">அன்டெலிவரி</string>
+    <string name="undeli_success_msg">வழங்கப்படாதது வெற்றிக்கரமாக பதிவேற்றம் செய்யப்பட்டது</string>
+    <string name="undeli_notsuccess_msg">வழங்கப்படாதது வெற்றிக்கரமாக பதிவேற்றம் செய்யப்படவில்லை</string>
+    <string name="Location_warning_error">இந்த தருணத்தில் இருப்பிடத்தை பெற முடியவில்லை, தயவுசெய்து மீண்டும் பின்னர் முயற்சிக்கவும்</string>
+    <string name="Location_not_up">இருப்பிடம் அப்டேட் செய்யப்படவில்லை</string>
+    <string name="enter_qty">தயவுசெய்து அளவை உள்ளிடவும்</string>
+    <string name="enter_qty_error">தயாரிப்புகளின் அளவை உங்களால் மாற்ற இயலாது, அதனால் நீங்கள் தயவுசெய்து டெலிவரி உடன் தொடரவும்</string>
+    <string name="enter_qtyno_error">நீங்கள் 0 எண் அளவை உள்ளிட்டுள்ளீர்கள், அதனால் தயவுசெய்து இதனை வழங்கப்படாததிற்கு முறைப்படுத்தவும்</string>
+    <!--Main Activity-->
+    <string name="change_language">Change Language</string>
+    <string name="unit_price"> யூனிட் ப்ரைஸ் : </string>
+    <string name="partial_quantity">க்வான்டிடீ :</string>
+    <string name="partial_del_qty">டெலிவரி க்வான்டிடீ :</string>
+    <string name="partial_total_amt"> டோட்டல் அமௌண்ட்  :</string>
+    <string name="view_details"> வியூ டிடெயில்ஸ் </string>
+    <string name="hide_details">ஹைடு டிடெயில்ஸ்</string>
+    <string name="ord_product_code">ப்ரோடக்ட் கோட் : </string>
+    <string name="delivery_success_msg"> ஷிப்மெண்ட் டிலிவர்ட் சக்சஸ்ஃபுலி   </string>
+    <string name="select_phone_no"> Select a Phone Number </string>
+    <string name="select_location"> Select Location </string>
+    <string name="main_logout_alert_sync"> Cannot Logout Offline Orders Not Synced </string>
+    <string name="dl_back_pressed"> Back Pressed </string>
+    <string name="main_choose_lang"> Choose Language </string>
+
+    <string name="pickup_complete">PickupComplete</string>
+
+    <!--<string name="sign_received_condition"> Received goods in good condition </string>-->
+    <string name="sign_received_condition"> ரிசிவ்ட் கூட்ஸ் இன் குட் கண்டிஷன் </string>
+    <string name="ord_title_pending"> Pending </string>
+    <string name="ord_title_success"> Success </string>
+    <string name="ord_title_failed"> Failed </string>
+    <string name="delivered_date_new"> வழங்கப்பட்ட தேதி </string>
+    <string name="select_reason_def"> செலக்ட் ரீஜன் </string>
+    <string name="shipment_already_delivered"> ஷிப்மெண்ட் ஆல்ரெடி டிலிவர்ட் 	 </string>
+    <string name="relation">Relation Proof</string>
+    <string name="check_all">Check All</string>
+    <string name="press_otp_match">Please press to getotp</string>
+    <string name="no_order">There is no orders in the list so can\'t able to proceed now</string>
+    <string name="oust_train">Training</string>
+</resources>
